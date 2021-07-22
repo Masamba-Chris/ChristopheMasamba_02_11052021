@@ -1,0 +1,707 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 10;
+	padding: 10;
+	/*overflow:auto;*/
+}
+/*=================== SECTION 01 ( Logo et Accueil)================*/
+
+#haut{
+	/*border: solid black; */
+	height: 100px;
+	padding:0;
+	/*background-color: yellow;*/
+	display: flex;
+	justify-content: space-between;
+	border: #0065FC solid 3px;
+}
+
+.img_res{
+	width: 20% ;
+	position: relative;
+	bottom: 20px;
+	left: 38px;
+}
+
+.logo_reservia{
+	/*background-color: cyan; */
+	padding-top: 70px;
+}
+#trait{
+
+	width:160px;
+	height:2px;
+	background-color: #0065FC;
+	font-size:0;
+	position: relative;
+	top: 0px; left: 10px;
+}
+.accueil{
+	
+	flex-direction: column ;
+}
+.textacc{
+	/*background-color: yellow; */
+	padding-top: 70px;
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 15px;
+	color: #0065FC;
+	font-weight: bold;
+}
+.textacc a{
+	text-decoration: none;
+}
+.textacc a:visited{
+	color:black;
+}
+
+/*============SECTION 01 bis ( Titre, recherche et filtre )=============*/
+
+#sect01{
+	background-color: #fdfffa;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	border: #0065FC solid 3px;
+	
+}
+
+#titre01 h2{
+	position: relative;
+	top: 10px;
+	left: 38px;
+
+}
+/*
+.rech{
+	position: relative;
+	left: 38px;
+}*/
+#idf00{
+	position: relative;
+	top: 10px;
+	left: 38px;
+}
+#offres{
+	position: relative;
+	left: 38px;
+
+}
+
+#id01{
+
+	font-size: 60%;
+	font-weight: normal;
+}
+.rech{
+	display:flex;
+	align-items: stretch;
+	position: relative;
+	left: 38px;
+	/*border: solid #2600ff; */
+	/*width: 500px;*/
+
+}
+
+#iconr{
+	width: 30px;
+	height: 35px;
+    background-color: #F2F2F2;		
+   	border-top-left-radius: 10px; 
+	border-bottom-left-radius: 10px;   
+	/*border: 1x solid gey;*/
+	text-align: center;   
+}
+
+#iconr i{
+	position: relative;
+	top: 8px;
+	font-size: 13px;
+}
+
+
+
+#champ{
+   	border: solid  #F2F2F2;;
+	margin-left: 0px;
+	height: 35px;
+	width: 179px; 
+	color: black;
+	font-weight: bold;  
+	text-indent: 10px;
+}
+
+#rechercher{
+	position: relative;
+	width: 100px;
+	height: 35px;
+	top: 0px;
+	left: -4px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #0065FC; 
+	color: white ;
+	border: solid #0065FC;
+}
+
+.filtre{
+	position: relative;
+	top: 20px;
+	left: 0px;
+	display:inline-flex;
+	/*border: solid blue; */
+}
+#idf00{
+	font-weight: bold;
+	font-size: 80%;
+}
+
+#idflabels{
+	background-color: white;
+	display: inline-flex;
+	justify-content: space-around;
+	width: 880px;
+		
+} 
+
+.eco, .famille, .roman, .autoriz{
+	width: 300px;
+	/*border-radius: 15%; */
+}
+
+#idf01, #idf03, #idf05, #idf07 {
+	width: 150px;
+	height: 33px;
+    background-color:#DEEBFF;
+	border-radius: 50%;		
+   	text-align: center; 
+	position: relative;
+	left: 15px;
+	
+}
+
+#idf01 i, #idf03 i, #idf05 i, #idf07 i{
+	position: relative;
+	top: 5px;
+	font-size: 13px;
+	/*height: 10px; */
+	color: #0065FC;
+}
+
+#idf02, #idf04, #idf06, #idf08{
+	border: solid #F2F2F2;
+ 	margin-left: 0px;
+    height: 33px;
+	font-weight: bold;
+	font-size: 80%;
+	text-align: center;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: white;
+}
+#idf02{
+    width: 500px;
+}
+#idf04{
+    width:300px;
+}
+#idf06{
+	width:450px;
+}
+#idf08{
+	width: 600px;
+}
+
+#offres{
+	position: relative;
+	top: 50px;
+	display: inline-flex;
+}
+#idof{
+	width: 20px;
+	height: 20px;
+    border:#F2F2F2 solid;
+	border-radius: 50%;		
+   	text-align: center;
+	position: relative;
+	top: 10px; 
+}
+
+#idof i{
+	position: relative;
+	top: 1px;
+	font-size: 13px;
+	color: #0065FC;
+}
+#offres p{
+	position: relative;
+	left: 10px;
+	font-size: 90%;
+}
+.choix{
+	text-decoration: none;
+	color: black;
+}
+
+/*==============SECTION 02 ===============*/
+#sect02{
+	margin-top: 60px;
+	height: 650px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 38px;
+	padding-right: 38px;
+	border: #0065FC solid 3px;
+	/*border: #0065FC solid; */
+}
+.principal{
+	width: 840px;
+	background-color:#F2F2F2;
+	/*border: solid blueviolet; */
+	display: flex;
+	flex-direction: column;
+	border-radius: 13px;
+	
+}
+.principal h2{
+	position: relative;
+	left: 32px;
+}
+
+.bleu{
+	color: #0065FC;
+	font-size: 10px
+}
+.grise{
+	color: #F2F2F2;
+	font-size: 10px;
+}
+
+#hebergements01{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 245px;
+	/*background-color: rgba(216, 191, 216, 0.733); */
+	display: flex;
+	justify-content: space-between;
+	/*border: #0065FC solid;*/
+	
+
+	/*border: solid blue; */
+}
+#hebergements02{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 245px;
+	/*background-color: rgba(241, 26, 26, 0.733); */
+	display: flex;
+	justify-content: space-between;
+	/*border: #0065FC solid;*/
+	/*border: solid rgb(145, 255, 0); */
+}
+
+.image11, .image12, .image13,.image14, .image15, .image16{
+	background-color: white;
+	font-size: small;
+	border: #fdfffa;
+	border-radius: 13px;
+	margin-left: 20px; ;
+	margin-right: 20px;
+	margin-bottom: 20px;;
+
+}
+.image11 img{
+	width: 220px;
+	height: 135px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	
+}
+.image12 img{
+	width: 220px;
+	height: 135px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	
+}
+.image13 img{
+	width: 220px;
+	height: 135px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	
+}
+
+.image14 img{
+	width: 220px;
+	height: 135px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	
+}
+.image15 img{
+	width: 220px;
+	height: 135px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	
+}
+.image16 img{
+	width: 220px;
+	height: 135px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	
+}
+.legend01{
+	padding-top: 8px;
+	padding-left: 10px;
+}
+.grastxt{
+	font-weight: bolder;
+}
+
+#affch{
+	position: relative;
+	left: 30px;
+	top: 5px;
+	
+}
+.affchplus{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+}
+
+/*=============== ASIDE ===============*/
+aside{
+	width: 380px;
+	height: 645px;
+	background-color: #F2F2F2;
+	/*border: solid rgb(138, 125, 15);*/
+	border-radius: 13px;
+	border: #0065FC solid 3px;
+}
+
+#pop{
+	display: flex;
+	
+	
+}
+#pop h2{
+	/*position: relative;
+	
+	left: 28px; */
+}
+#pop i{
+	position: relative;
+	left: 100px; ;
+	top: 25px;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+/*
+#pop i{
+	width: 10px;
+	height: 10px;
+}    */
+
+#paveside{
+	/*border: #0065FC solid;*/
+	/*padding: auto;*/
+	height:578px;
+	/*border: #0065FC solid 1px; */
+	border: #0065FC solid 3px;
+	
+}
+.image21{
+	display: flex;
+	width: 320px;
+	margin-left: 25px;
+	/*border: #0065FC solid;*/
+	background-color: #F2F2F2;
+	/*border: solid rgb(138, 125, 15);*/
+	border-radius: 13px;
+	position: relative;
+	top: -8px;
+}
+.image22{
+	display: flex;
+	width: 320px;
+	margin-left: 25px;
+	/*border: #0065FC solid;*/
+	background-color: #F2F2F2;
+	/*border: solid rgb(138, 125, 15);*/
+	border-radius: 13px;
+	position: relative;
+	top: 12px;
+}
+.image23{
+	display: flex;
+	width: 320px;
+	margin-left: 25px;
+	/*border: #0065FC solid;*/
+	background-color: #F2F2F2;
+	/*border: solid rgb(138, 125, 15);*/
+	border-radius: 13px;
+	position: relative;
+	top: 30px;
+}
+.imtxt{
+	width: 190px;
+	height: 134px;
+	border-top-right-radius: 13px;
+	border-bottom-right-radius: 13px;
+	background-color: white;
+	font-size: small;
+	border:white solid 3px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.imtxt i{
+	position: relative;
+	top:45px;
+}
+
+
+
+.image21 img{
+	width: 130px;
+	height: 145px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+	border-top-left-radius: 13px;
+	border-bottom-left-radius: 13px;
+	
+}
+.image22 img{
+	width: 130px;
+	height: 145px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+	border-top-left-radius: 13px;
+	border-bottom-left-radius: 13px;
+
+}
+.image23 img{
+	width: 130px;
+	height: 145px;
+	border: #fdfffa solid 3px;
+	object-fit: cover;
+	border-top-left-radius: 13px;
+	border-bottom-left-radius: 13px;
+}
+/*.imtxt{
+	/*width: 100%;
+	height: 140px;
+	background-color: white;
+	font-size: small;
+}
+#soleil, #coeur, #toutbleu{
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+	top: 14px; 
+	
+	border: solid white;
+	border-radius: 13px;
+	display:flex;
+	justify-content: space-around;
+	/*position: relative;
+	top: 35px;   
+}
+#coeur{
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+	top: 35px; 
+	
+	border: solid white;
+	border-radius: 13px;
+	display:flex;
+	justify-content: space-around;
+	/*position: relative;
+	top: 35px;  
+}
+#toutbleu{
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+	top: 56px; 
+	
+	border: solid white;
+	border-radius: 13px;
+	display:flex;
+	justify-content: space-around;
+	/*position: relative;
+	top: 35px; 
+} */
+/**============== SECTION 03 ===============*/
+.sect03{
+	/*border: solid blueviolet; */
+	border: #0065FC solid 3px;
+}
+.sect03 h2{
+	position: relative;
+	left: 38px;
+
+}
+#activ{
+	height: 480px;
+	/*border: solid brown;**/
+	/*width:1100px; */
+	display: flex;
+	justify-content:flex-start; /*  */
+	border: #0065FC solid 2px;
+}
+#vieuxport img{
+	width: 270px;
+	height: 385px;
+	border: #f2f2f2 solid 3px;
+	object-fit: cover;
+	
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	position: relative;
+	right: 5px;
+}
+#fort{
+	width: 270px;
+	height: 215px;
+	border: #f2f2f2 solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	position: relative;
+	right: 35px;
+	
+}
+#iles{
+	width: 270px;
+	height: 104px;
+	border: #f2f2f2 solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	position: relative;
+	right: 35px;
+}
+#parc img{
+	width: 270px;
+	height: 389px;
+	border: #f2f2f2 solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	position: relative;
+	right: 65px;
+}
+#ndgarde{
+	width: 270px;
+	height: 145px;
+	border: #f2f2f2 solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	position: relative;
+	right: 95px;
+}
+#longchamp{
+	width: 270px;
+	height: 175px;
+	border: #f2f2f2 solid 3px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+	position: relative;
+	right: 95px;
+}
+#vieuxport figcaption{
+	position: relative;
+	right: 5px;
+}
+
+#fort_iles figcaption{
+	position: relative;
+	right: 35px;
+}
+#parc figcaption{
+	position: relative;
+	right: 65px;
+}
+#notredame figcaption{
+	position: relative;
+	right: 95px;
+}
+.legend02{
+	font-size: small;
+	font-weight: bolder;
+	height: 40px;
+	border-left: #f2f2f2 solid 3px;
+	border-right: #f2f2f2 solid 3px;
+	border-bottom: #f2f2f2 solid 3px;
+	border-bottom-left-radius:13px;
+	border-bottom-right-radius:13px;
+}
+.leg{
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+
+/**================== FOOTER =================**/
+footer{
+	/*border: #2600ff solid; */
+	display: flex;
+	justify-content: space-around;
+	font-size: small;
+	margin-top: 20px;
+	background-color: rgb(223, 219, 219);
+	border: #0065FC solid 3px;
+}
+#apropos{
+	/*border: solid brown;  */
+	position: relative;
+	right: 100px; 
+}
+#nosheberg{
+	/*border: solid brown; */
+	position: relative;
+	right: 150px; 
+}
+#assistance{
+	/*border: solid brown;  */
+	position: relative;
+	right: 150px; 
+}
+.sstrait{
+	text-decoration: none;
+	color: black;
+}
+
+/*============= ADAPTATION RISPONSIVE ==============
+
+@media screen and (min-width: 635px) and (max-width: 765px)
+{
+   #haut, .sect01,.recherche, .filtres, #idflabels, #offres{
+       flex-direction: column;
+      }
+}
+
+*/
