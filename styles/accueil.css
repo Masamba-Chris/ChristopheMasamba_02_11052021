@@ -9,10 +9,10 @@ body {
 #haut{
 	height: 100px;
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 30px;
 	display: flex;
 	justify-content: space-between;
-	border: #0065FC solid 3px;
+	/*border: #0065FC solid 3px;*/
 }
 
 .img_res{
@@ -64,7 +64,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-top: 10px;
-	border: #0065FC solid 3px;
+	/*border: #0065FC solid 3px;*/
 	
 }
 
@@ -131,7 +131,7 @@ body {
 	border-bottom-right-radius: 10px;
 	background-color: #0065FC; 
 	color: white ;
-	border: solid #0065FC;
+	border: solid #0065FC; 
 }
 
 .filtre{
@@ -151,7 +151,7 @@ body {
 	display: inline-flex;
 	justify-content: space-around;
 	max-width: 850px;
-	border: #0065FC solid 2px;
+	/*border: #0065FC solid 2px; */
 	
 		
 } 
@@ -174,7 +174,7 @@ body {
 	border-radius: 50%;		
    	text-align: center; 
 	position: relative;
-	left: 15px;
+	left: 18px;
 	
 }
 
@@ -243,12 +243,12 @@ body {
 /*==============SECTION 02 ===============*/
 #sect02{
 	margin-top: 60px;
-	height: 650px;
+	height: 645px;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 38px;
 	padding-right: 38px;
-	border: #0065FC solid 3px;
+	/*border: #0065FC solid 3px; */
 }
 .principal{
 	margin-left: 20px;
@@ -257,7 +257,7 @@ body {
 	background-color:#F2F2F2;
 	display: flex;
 	flex-direction: column;
-	border-radius: 13px;
+	border-radius: 15px;
 	
 }
 .principal h2{
@@ -289,7 +289,7 @@ body {
 	justify-content: space-between;
 }
 
-.image11, .image12, .image13,.image14, .image15, .image16{
+.image11, .image14{
 	background-color: white;
 	font-size: small;
 	border: #fdfffa;
@@ -299,6 +299,29 @@ body {
 	margin-bottom: 20px;;
 
 }
+.image12, .image15{
+	background-color: white;
+	font-size: small;
+	border: #fdfffa;
+	border-radius: 13px;
+	margin-left: 15px; ;
+	/*margin-right: 20px;*/
+	
+	margin-bottom: 20px;;
+
+}
+.image13, .image16{
+	background-color: white;
+	font-size: small;
+	border: #fdfffa;
+	border-radius: 13px;
+	margin-left: -4px; ;
+	/*margin-right: 20px;*/
+	
+	margin-bottom: 20px;;
+
+}
+
 
 .image11 img, .image12 img, .image13 img, .image14 img, .image15 img, .image16 img {
 	width: 220px;
@@ -335,12 +358,14 @@ body {
 
 /*=============== ASIDE ===============*/
 aside{
-	width: 385px;
+	width: 373px;
 	height: 645px;
 	background-color: #F2F2F2;
-	border-radius: 13px;
-	border: #0065FC solid 3px;
+	border-radius: 15px;
+	/*border: #0065FC solid 3px;*/
 	margin-left: 0px;
+	position: relative;
+	left: -25px;
 }
 
 #pop{
@@ -360,7 +385,7 @@ aside{
 
 #paveside{
 	height:578px;
-	border: #0065FC solid 3px;
+	/*border: #0065FC solid 3px; */
 	
 }
 .image21{
@@ -416,7 +441,7 @@ aside{
 }
 /**============== SECTION 03 ===============*/
 .sect03{
-	border: #0065FC solid 3px;
+	/*border: #0065FC solid 3px; */
 	padding-left: 20px;
 	padding-right: 20px;
 	
@@ -429,8 +454,8 @@ aside{
 #activ{
 	height: 480px;
 	display: flex;
-	justify-content:flex-start; /*  */
-	border: #0065FC solid 2px;
+	justify-content:flex-start; 
+	/*border: #0065FC solid 2px; */
 }
 #vieuxport img{
 	width: 270px;
@@ -451,7 +476,7 @@ aside{
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 35px;
+	right: 47px;
 	
 }
 #iles{
@@ -462,7 +487,7 @@ aside{
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 35px;
+	right: 47px;
 }
 #parc img{
 	width: 270px;
@@ -472,7 +497,7 @@ aside{
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 65px;
+	right: 90px;
 }
 #ndgarde{
 	width: 270px;
@@ -482,7 +507,7 @@ aside{
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 95px;
+	right: 130px;
 }
 #longchamp{
 	width: 270px;
@@ -492,7 +517,7 @@ aside{
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 95px;
+	right: 130px;
 }
 #vieuxport figcaption{
 	position: relative;
@@ -501,15 +526,15 @@ aside{
 
 #fort_iles figcaption{
 	position: relative;
-	right: 35px;
+	right: 47px;
 }
 #parc figcaption{
 	position: relative;
-	right: 65px;
+	right: 90px;
 }
 #notredame figcaption{
 	position: relative;
-	right: 95px;
+	right: 130px;
 }
 .legend02{
 	font-size: small;
@@ -534,7 +559,7 @@ footer{
 	font-size: small;
 	margin-top: 20px;
 	background-color: rgb(223, 219, 219);
-	border: #0065FC solid 3px;
+	/*border: #0065FC solid 3px;  */
 }
 #apropos{
 	position: relative;
