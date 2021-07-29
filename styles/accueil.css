@@ -1,29 +1,28 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	margin: 10;
-	padding: 10;
 	overflow-x: hidden;
 }
 /*=================== SECTION 01 ( Logo et Accueil)================*/
 
 #haut{
-	height: 100px;
-	padding-left: 20px;
-	padding-right: 30px;
+	height: 80px;
+	width: 1210px;
+	margin-left: 60px;
+	margin-right:60px;
 	display: flex;
 	justify-content: space-between;
-	/*border: #0065FC solid 3px;*/
+	/*border: red solid 2px;*/
 }
 
 .img_res{
 	width: 20% ;
-	position: relative;
-	bottom: 20px;
-	left: 38px;
+	position:relative;
+	top:40px
 }
 
 .logo_reservia{
-	padding-top: 70px;
+	margin-left: 0px;
+	border: bleu solid 2px;
 }
 #trait{
 
@@ -35,17 +34,19 @@ body {
 	top: 0px; left: 10px;
 }
 .accueil{
-	
+	margin-right: 0px;
 	flex-direction: column ;
+	/*border: violet solid 2px;*/
 }
 .textacc{
-	padding-top: 70px;
+	
 	width: 400px;
 	display: flex;
 	justify-content: space-around;
 	font-size: 15px;
 	color: #0065FC;
-	font-weight: bold;
+	position:relative;
+	top:40px
 }
 .textacc a{
 	text-decoration: none;
@@ -59,46 +60,38 @@ body {
 #sect01{
 	
 	background-color: #fdfffa;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
 	display: flex;
 	flex-direction: column;
 	margin-top: 10px;
 	/*border: #0065FC solid 3px;*/
 	
 }
+/*
+#titre01{
+	border: red solid 2px; 	
+} */
 
-#titre01 h2{
-	position: relative;
-	top: 10px;
-	left: 38px;
-
-}
 #idf00{
 	position: relative;
 	top: 10px;
 	left: 38px;
 }
-#offres{
-	position: relative;
-	left: 38px;
-
-}
 
 #id01{
 
-	font-size: 60%;
+	font-size: 70%;
 	font-weight: normal;
 }
 .rech{
 	display:flex;
 	align-items: stretch;
-	position: relative;
-	left: 38px;
+	/*border: blue solid 2px;*/
 }
 
 #iconr{
-	width: 30px;
+	width: 35px;
 	height: 40px;
     background-color: #F2F2F2;		
    	border-top-left-radius: 10px; 
@@ -135,88 +128,76 @@ body {
 }
 
 .filtre{
-	position: relative;
-	top: 20px;
-	left: 0px;
-	display:inline-flex;
-	
+	width: 850px;
+	margin-top:20px;
+	display: flex;
+	justify-content:flex-start;
+	/*border: red solid 2px; */
+	 
 }
 #idf00{
 	font-weight: bold;
 	font-size: 90%;
-}
-
-#idflabels{
-	background-color: white;
-	display: inline-flex;
-	justify-content: space-around;
-	max-width: 850px;
-	/*border: #0065FC solid 2px; */
+	position: relative;
+	left:0px;
+	top:10px;	
+	/*border: blue solid 2px;*/
 	
-		
-} 
-
-.eco{
-	width: 300px;
 }
-
-.famille, .roman, .autoriz{
-	width: 50px;
-	/*position: relative;
-	left: 20px; */
-}
-
 
 #idf01, #idf03, #idf05, #idf07 {
-	width: 220px;
-	height: 43px;
+	width: 150px;
+	height: 35px;
     background-color:#DEEBFF;
 	border-radius: 50%;		
    	text-align: center; 
 	position: relative;
-	left: 18px;
-	
+	left: 25px;
 }
 
 #idf01 i, #idf03 i, #idf05 i, #idf07 i{
 	position: relative;
-	top: 10px;
+	top: 8px; 
 	font-size: 13px;
 	color: #0065FC;
+	left: 0px;
 }
 
 #idf02, #idf04, #idf06, #idf08{
 	border: solid #F2F2F2;
- 	/*margin-left: 0px;*/
-    height: 43px;
+ 	height: 35px;
 	font-weight: bolder;
 	font-size: 90%;
 	text-align: center;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 	background-color: white;
 }
 #idf02{
-    width: 670px;
+    width: 680px;
 }
 #idf04{
-    width:470px;
+    width:480px;
 }
 #idf06{
-	width:700px;
+	width:710px;
 }
 #idf08{
-	width: 770px;
+	width: 780px;
 }
 
 #offres{
-	position: relative;
-	top: 50px;
-	display: inline-flex;
+	margin-left: 0px;
+	margin-right: 10px; 
+	margin-top:10px;
+	display: flex;
+	/*border: red solid 2px; */
 }
 #idof{
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
     border:#F2F2F2 solid;
 	border-radius: 50%;		
    	text-align: center;
@@ -231,10 +212,10 @@ body {
 	color: #0065FC;
 }
 #offres p{
-	position: relative;
-	left: 10px;
-	font-size: 90%;
+	padding-left:10px;
+	font-size:80%;
 }
+
 .choix{
 	text-decoration: none;
 	color: black;
@@ -242,27 +223,27 @@ body {
 
 /*==============SECTION 02 ===============*/
 #sect02{
-	margin-top: 60px;
+	margin-top: 25px;
 	height: 645px;
+	/*border: blue solid 2px;*/
+	margin-left: 60px;
+	margin-right: 60px;
 	display: flex;
-	justify-content: space-between;
-	padding-left: 38px;
-	padding-right: 38px;
-	/*border: #0065FC solid 3px; */
+	justify-content: space-between;*/
 }
 .principal{
-	margin-left: 20px;
+	margin-left: 0px;
 	margin-right: 20px;
 	width: 810px;
 	background-color:#F2F2F2;
 	display: flex;
 	flex-direction: column;
 	border-radius: 15px;
-	
 }
-.principal h2{
+.principal h3{
+	padding-left: 32px;
 	position: relative;
-	left: 32px;
+	top: 15px; 
 }
 
 .bleu{
@@ -304,11 +285,7 @@ body {
 	font-size: small;
 	border: #fdfffa;
 	border-radius: 13px;
-	margin-left: 15px; ;
-	/*margin-right: 20px;*/
-	
-	margin-bottom: 20px;;
-
+	margin-left: 15px; 
 }
 .image13, .image16{
 	background-color: white;
@@ -316,10 +293,7 @@ body {
 	border: #fdfffa;
 	border-radius: 13px;
 	margin-left: -4px; ;
-	/*margin-right: 20px;*/
 	
-	margin-bottom: 20px;;
-
 }
 
 
@@ -337,6 +311,7 @@ body {
 }
 
 .legend01{
+	
 	padding-top: 8px;
 	padding-left: 10px;
 }
@@ -354,6 +329,7 @@ body {
 	text-decoration: none;
 	color: black;
 	font-weight: bolder;
+	font-size: 95%;
 }
 
 /*=============== ASIDE ===============*/
@@ -362,31 +338,28 @@ aside{
 	height: 645px;
 	background-color: #F2F2F2;
 	border-radius: 15px;
-	/*border: #0065FC solid 3px;*/
 	margin-left: 0px;
-	position: relative;
-	left: -25px;
 }
 
 #pop{
 	display: flex;
 }
-#pop h2{
+#pop h3{
+	padding-left: 28px;
 	position: relative;
-	left: 28px; 
+	top: 15px; 
 }
 #pop i{
 	position: relative;
-	left: 100px; ;
-	top: 25px;
+	left: 120px; 
+	top: 35px;
 	font-weight: bolder;
-	font-size: 22px;
+	font-size: 20px;
 }
 
 #paveside{
 	height:578px;
-	/*border: #0065FC solid 3px; */
-	
+		
 }
 .image21{
 	display: flex;
@@ -395,7 +368,7 @@ aside{
 	background-color: #F2F2F2;
 	border-radius: 13px;
 	position: relative;
-	top: -8px;
+	top: -2px;
 }
 .image22{
 	display: flex;
@@ -441,83 +414,85 @@ aside{
 }
 /**============== SECTION 03 ===============*/
 .sect03{
-	/*border: #0065FC solid 3px; */
-	padding-left: 20px;
-	padding-right: 20px;
+	/*border: #0065FC solid 3px;*/
+	margin-left: 20px;
+	margin-right: 20px;
+
 	
 }
-.sect03 h2{
+.sect03 h3{
+	padding-left: 38px;
 	position: relative;
-	left: 38px;
+	top: 15px;
 
 }
 #activ{
 	height: 480px;
 	display: flex;
 	justify-content:flex-start; 
-	/*border: #0065FC solid 2px; */
+	
 }
 #vieuxport img{
-	width: 270px;
+	width: 275px;
 	height: 385px;
 	border: #f2f2f2 solid 3px;
 	object-fit: cover;
 	
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
-	position: relative;
+	position: relative; 
 	right: 5px;
 }
 #fort{
-	width: 270px;
+	width: 275px;
 	height: 215px;
 	border: #f2f2f2 solid 3px;
 	object-fit: cover;
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 47px;
+	right: 56px;
 	
 }
 #iles{
-	width: 270px;
+	width: 275px;
 	height: 104px;
 	border: #f2f2f2 solid 3px;
 	object-fit: cover;
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 47px;
+	right: 56px;
 }
 #parc img{
-	width: 270px;
+	width: 275px;
 	height: 389px;
 	border: #f2f2f2 solid 3px;
 	object-fit: cover;
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 90px;
+	right: 110px;
 }
 #ndgarde{
-	width: 270px;
+	width: 275px;
 	height: 145px;
 	border: #f2f2f2 solid 3px;
 	object-fit: cover;
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 130px;
+	right: 161px;
 }
 #longchamp{
-	width: 270px;
+	width: 275px;
 	height: 175px;
 	border: #f2f2f2 solid 3px;
 	object-fit: cover;
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 	position: relative;
-	right: 130px;
+	right: 161px;
 }
 #vieuxport figcaption{
 	position: relative;
@@ -526,15 +501,15 @@ aside{
 
 #fort_iles figcaption{
 	position: relative;
-	right: 47px;
+	right: 56px;
 }
 #parc figcaption{
 	position: relative;
-	right: 90px;
+	right: 110px;
 }
 #notredame figcaption{
 	position: relative;
-	right: 130px;
+	right: 161px;
 }
 .legend02{
 	font-size: small;
@@ -555,23 +530,25 @@ aside{
 /**================== FOOTER =================**/
 footer{
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	font-size: small;
 	margin-top: 20px;
+	
 	background-color: rgb(223, 219, 219);
-	/*border: #0065FC solid 3px;  */
-}
+	
+} 
 #apropos{
-	position: relative;
-	right: 100px; 
+	padding-left: 56px;
+/*	position: relative;
+	right: 100px; */
 }
 #nosheberg{
 	position: relative;
-	right: 150px; 
+	left: 240px;
 }
 #assistance{
 	position: relative;
-	right: 150px; 
+	left: 485px; 
 }
 .sstrait{
 	text-decoration: none;
