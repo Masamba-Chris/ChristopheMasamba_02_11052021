@@ -145,7 +145,7 @@ body {
 	margin-top:20px;
 	display: flex;
 	justify-content:flex-start;
-	/*border: red solid 2px; */
+	border: red solid 2px; 
 	 
 }
 #idf00{
@@ -159,7 +159,7 @@ body {
 }
 
 #idf01, #idf03, #idf05, #idf07 {
-	width: 150px;
+	width:140px;
 	height: 35px;
     background-color:#DEEBFF;
 	border-radius: 50%;		
@@ -242,7 +242,8 @@ body {
 	margin-left: 60px;
 	margin-right: 60px;
 	display: flex;
-	justify-content: space-between;*/
+	justify-content: space-between;
+	position: relative;
 }
 .principal{
 	margin-left: 0px;
@@ -252,6 +253,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	border-radius: 15px;
+	
 }
 .principal h3{
 	padding-left: 32px;
@@ -352,6 +354,9 @@ aside{
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	margin-left: 0px;
+	
+
+	
 }
 
 #pop{
@@ -574,8 +579,467 @@ footer{
 
 @media screen and (max-width: 765px)
 {
-   #haut, .sect01,.recherche, .filtres, #idflabels, #offres{
-       flex-direction: column;
-      }
+ 	body{
+		font-family: 'Raleway', sans-serif;
+		overflow-x: hidden;
+	  }
+          /*-----header------*/
+	#haut{
+		height: 150px;
+		width: 450px;
+		display: block;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		border: red solid 2px;
+	}
+	#trait{
+		position: relative;
+		top: 90px;
+	}
+	#heber{
+		position: relative;
+		top: 20px;
+	}
+	#act{
+		position: relative;
+		top: 20px;
+		left: 60px;
+	}
+	#inscri{
+		position: relative;
+		bottom: 32px;
+	}
+		/*--------Rechercher--------*/
+	#rechercher{
+		visibility: hidden;
+	}
+	#butt{
+		visibility: visible;
+	}
+	.filtre{
+		width: 400px;
+		height: 180px;
+		margin-top:10px;
+		display: block; 
+		border: red solid 2px; 
+		 
+	}
+
+	#idf00{
+		font-weight: bold;
+		font-size: 90%;
+		/*border: blue solid 2px;*/
+	}
+	#idf01{
+		width:35px;
+		height: 35px;
+		background-color:#DEEBFF;
+		border-radius: 50%;		
+		text-align: center; 
+		position: relative;
+		left: 0px;
+		top: 7px;
+		z-index: 1;
+	}
+	#idf03{
+		width:35px;
+		height: 35px;
+		background-color:#DEEBFF;
+		border-radius: 50%;		
+		text-align: center; 
+		position: relative;
+		left: 158px;
+		top: -77px;
+		z-index: 1;
+	}
+	#idf05 {
+		width:35px;
+		height: 35px;
+		background-color:#DEEBFF;
+		border-radius: 50%;		
+		text-align: center; 
+		position: relative;
+		left: 0px;
+		top: -117px;
+		z-index: 1;
+	}
+	#idf07 {
+		width:35px;
+		height: 35px;
+		background-color:#DEEBFF;
+		border-radius: 50%;		
+		text-align: center; 
+		position: relative;
+		left: 0px;
+		top: -155px;
+		z-index: 1;
+	}
+
+	#idf01 i, #idf03 i, #idf05 i, #idf07 i{
+		position: relative;
+		top: 8px; 
+		font-size: 13px;
+		color: #0065FC;
+		left: 0px;
+	}
+	
+	#idf02, #idf04, #idf06, #idf08{
+		border: solid #F2F2F2;
+		height: 35px;
+		font-weight: bolder;
+		font-size: 90%;
+		text-align: center;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+		background-color: white;
+	}
+	#idf02{
+		width: 150px;
+		padding-left: 30px;
+		position: relative;
+		top: -28px;
+	}
+	#idf04{
+		width:110px;
+		padding-left: 30px;
+		position: relative;
+		left: 157px;
+		top: -113px;
+	}
+	#idf06{
+		width:140px;
+		padding-left: 30px;
+		position: relative;
+		top: -152px;
+	}
+	#idf08{
+		width: 200px;
+		padding-left: 30px;
+		position: relative;
+		top: -190px;
+	}
+	  /*--------section02--------*/
+
+	  #sect02{
+		margin-top: 25px;
+		width: 450px;
+		height: 2000px;
+		border: blue solid 2px;
+		margin-left: 0px;
+		margin-right: 10px;
+		display: block;
+		/*display: flex;
+		justify-content: space-between; */
+	}  
+    aside{
+		width: 450px;
+		position: absolute;
+		top: 0px;
+		border: solid red 1px;
+		height: 450px;
+		overflow: scroll;
+	}
+	.principal{
+		position: absolute;
+		bottom: 5px;
+		height: 1540px;
+		border: rgb(123, 255, 0) solid 1px;
+		width: 450px;
+		
+	}
+	#hebergements01{
+		display: block;
+		height: 700px;
+		max-width: 400px;
+		border: royalblue solid 1px;
+		/*margin-left: 10px; */
+	}
+
+	#hebergements02{
+		display: block;
+		height: 700px;
+		max-width: 400px;
+		border: orange solid 1px;
+		margin-top: 15px; */
+	}
+		   /*---------------images hebergements et légendes----------------*/
+
+	.image11 img, .image12 img, .image14 img{
+		width: 310px;
+		height: 150px;
+		border: #873dcc solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		/*position: relative;
+		left: 5px;*/
+		padding-left: 0px;
+		padding-right:0px;
+	}
+	.image11 figcaption, .image12 figcaption, .image14 figcaption{
+		width: 300px;
+		background-color: palevioletred;
+		position: relative;
+		left: 0px;
+
+	}
+	.image13 img{
+		width: 310px;
+		height: 150px;
+		border: #873dcc solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		/*position: relative;
+		left: 5px;*/
+		padding-left: 0px;
+		padding-right:0px;	
+	}
+	.image13 figcaption {
+		width: 300px;
+		background-color: palevioletred;
+		position: relative;
+		left: 0px;
+	}
+	.image15 img{
+		width: 310px;
+		height: 150px;
+		border: #873dcc solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		/*position: relative;
+		left: 5px;*/
+		padding-left: 0px;
+		padding-right:0px;	
+	}
+
+	.image15 figcaption{
+		width: 300px;
+		background-color: palevioletred;
+		position: relative;
+		left: 0px;
+
+	}
+	.image16 img{
+		width: 310px;
+		height: 150px;
+		border: #873dcc solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		/*position: relative;
+		left: 5px;*/
+		padding-left: 0px;
+		padding-right:0px;	
+	}
+
+	.image16 figcaption{
+		width: 300px;
+		background-color: palevioletred;
+		position: relative;
+		left: 0px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	.legend01{
+		width: 310px;
+		border: orangered solid 3px;
+		position: relative;
+		left: 20px;
+		
+	}
+	
+	#affch{
+		margin-top: 20px;
+	}
+
+	/*------------------activités à Marseille-----------------*/
+	#activ{
+		display: block;
+		width: 440px;
+		height: 1400px;
+		border: orangered solid 1px;
+	}
+	
+	#vieuxport{
+			border: blueviolet solid 1px;
+	}
+		
+		
+		
+	#parc, #notredome{
+			border: rgb(43, 153, 226) solid 1px;
+	}  
+	
+	#fort_iles{
+		display: block;
+		border: rgb(212, 15, 153) solid 1px;
+		/*padding: left 40px;*/ 
+	}
+	#notredame{
+		display: block;
+		
+		border: rgb(9, 1, 17) solid 1px;
+		
+	}
+	
+	#vieuxport img{
+		width: 310px;
+		height: 150px;
+		border: #f2f2f2 solid 3px;
+		object-fit: cover;
+		
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		position: relative; 
+		left: 20px;
+	}
+	#fort{
+		width: 310px;
+		height: 150px;
+		border: #f2f2f2 solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		position: relative;
+		left: 20px; 		
+	}
+	#iles{
+		width: 310px;
+		height: 150px;
+		border: #f2f2f2 solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		position: relative;
+		left: 20px;
+	}
+	#parc img{
+		width: 310px;
+		height: 150px;
+		border: #f2f2f2 solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		position: relative;
+		left: 20px; 
+	}
+	#ndgarde{
+		width: 310px;
+		height: 150px;
+		border: #f2f2f2 solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		position: relative;
+		left: 20px; 
+	}
+	#longchamp{
+		width: 310px;
+		height: 150px;
+		border: #f2f2f2 solid 3px;
+		object-fit: cover;
+		border-top-left-radius:13px;
+		border-top-right-radius:13px;
+		position: relative;
+		left: 20px; 
+	}
+	#vieuxport figcaption{
+		width: 310px;
+		position: relative;
+		left: 20px; 
+	}
+	
+	#fort_iles figcaption{
+		width: 310px;
+		position: relative;
+		left: 20px;
+	}
+	#parc figcaption{
+		width: 310px;
+		position: relative;
+		left: 20px;
+	}
+	#notredame figcaption{
+		width: 310px;
+		position: relative;
+		left: 20px;*/
+	}
+	.legend02{
+		font-size: small;
+		font-weight: bolder;
+		height: 40px;
+		border-left: #f2f2f2 solid 3px;
+		border-right: #f2f2f2 solid 3px;
+		border-bottom: #f2f2f2 solid 3px;
+		border-bottom-left-radius:13px;
+		border-bottom-right-radius:13px;
+		
+	}
+	.leg{
+		position: relative;
+		left: 10px;
+		top: 10px;
+	}
+	
+	/*------- Footer------*/
+	footer{
+		
+		display: block; 
+		height: 400px;
+		
+		font-size: small;
+		margin-top: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+		position: relative;
+		border: orangered solid 1px;
+		background-color: rgb(223, 219, 219);
+		
+	}
+	
+	#apropos{
+		position: absolute;
+		top: 20px;
+		left: -20px;
+			}
+	#nosheberg{
+		position: absolute;
+		top: 160px;
+		left: 35px;
+			}
+	#assistance{
+		position: absolute;
+		top: 275px;
+		left: 35px;
+	
+	}
+	.sstrait{
+		text-decoration: none;
+		color: black;
+	}
+
+	
+	/*.legend02{
+		width: 300px;
+	}
+	.imhb02{
+		height: 250px;
+
+	} */
 }
 
