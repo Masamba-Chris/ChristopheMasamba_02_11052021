@@ -284,7 +284,6 @@ body {
 	border-top-right-radius: 13px;
 }
 	
-}
 .legend01 a{
 	color: black;
 	text-decoration: none;
@@ -584,9 +583,9 @@ footer{
 	}
 	
 		/*--------Rechercher--------*/
+	/*	
 	.rech{
-		
-	}	
+	} */	
 	#incor{
 		width: 25%;
 	}
@@ -619,8 +618,7 @@ footer{
 	#idf00{
 		font-weight: bold;
 		font-size: 90%;
-		border: blue solid 2px;*/
-		
+		border: blue solid 2px;
 	}
 	.eco{
 		width: 160px;
