@@ -1,17 +1,17 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
+	margin: 20px;
 }
 /*=================== SECTION 01 ( Logo et Accueil)================*/
 
 #haut{
 	height: 80px;
-	width: 1210px;
-	margin-left: 60px;
-	margin-right:60px;
 	display: flex;
 	justify-content: space-between;
-	/*border: red solid 2px;*/
+	border: red solid 2px;
+	margin-left:20px;
+	margin-right:20px;
 }
 
 .img_res{
@@ -35,8 +35,7 @@ body {
 }
 .accueil{
 	margin-right: 0px;
-	flex-direction: column ;
-	/*border: violet solid 2px;*/
+	border: violet solid 2px;
 }
 .textacc{
 	
@@ -58,25 +57,16 @@ body {
 /*============SECTION 01 bis ( Titre, recherche et filtre )=============*/
 
 #sect01{
-	
-	background-color: #fdfffa;
-	margin-left: 60px;
-	margin-right: 60px;
-	display: flex;
-	flex-direction: column;
 	margin-top: 10px;
-	/*border: #0065FC solid 3px;*/
-	
+	background-color: #fdfffa;
+	border: #0065FC solid 3px;
+	margin-left:20px;
+	margin-right:20px;
 }
-/*
-#titre01{
-	border: red solid 2px; 	
-} */
 
-#idf00{
-	position: relative;
-	top: 10px;
-	left: 38px;
+#titre01{
+	border: red solid 2px; 
+	width:70%;
 }
 
 #id01{
@@ -87,7 +77,7 @@ body {
 .rech{
 	display:flex;
 	align-items: stretch;
-	/*border: blue solid 2px;*/
+	border: blue solid 2px;
 }
 
 #iconr{
@@ -102,7 +92,7 @@ body {
 #iconr i{
 	position: relative;
 	top: 8px;
-	font-size: 13px;
+	font-size: 13px; 
 }
 #champ{
    	border: solid  #F2F2F2;;
@@ -116,68 +106,77 @@ body {
 
 #rechercher{
 	position: relative;
-	width: 100px;
+	width: 120px;
 	height: 40px;
 	top: 0px;
-	left: -4px;
+	left: 0px;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	background-color: #0065FC; 
 	color: white ;
 	border: solid #0065FC; 
 }
-
 #butt{
-	width: 42px;
-	background-color: black;
-	border-radius: 10px;
-	position: relative;
-	right: 104px;
-	visibility: hidden;
-}
-#butt i{
-	font-size: 14px;
-	color: white;
-}
-
+		visibility: hidden;
+}		
+/*------------------------------*/
 .filtre{
-	width: 850px;
-	margin-top:20px;
+	width: 60%; 
 	display: flex;
-	justify-content:flex-start;
+	justify-content:space-around;
+	padding-left:0;
+	margin-top:10px; 
 	border: red solid 2px; 
-	 
 }
 #idf00{
 	font-weight: bold;
 	font-size: 90%;
 	position: relative;
-	left:0px;
-	top:10px;	
-	/*border: blue solid 2px;*/
-	
+	top: 8px; 
+}
+
+.eco{
+	border: red solid 1px;
+	width:25%;
+	display:flex;
+}
+ 
+.famille{
+	border: red solid 1px;
+	width: 18%;
+	display:flex;
+}
+.roman{
+	border: red solid 1px;
+	width: 22%;
+	display:flex;
+}
+.autoriz{
+	border: red solid 1px;
+	width: 30%;
+	display:flex;
 }
 
 #idf01, #idf03, #idf05, #idf07 {
-	width:140px;
+	min-width: 35px;
 	height: 35px;
     background-color:#DEEBFF;
 	border-radius: 50%;		
-   	text-align: center; 
+   	text-align: center;
 	position: relative;
-	left: 25px;
+	left: 22px;
 }
 
 #idf01 i, #idf03 i, #idf05 i, #idf07 i{
-	position: relative;
-	top: 8px; 
 	font-size: 13px;
 	color: #0065FC;
-	left: 0px;
+	position: relative;
+	top: 8px; 
 }
 
 #idf02, #idf04, #idf06, #idf08{
 	border: solid #F2F2F2;
+	width:100%;
  	height: 35px;
 	font-weight: bolder;
 	font-size: 90%;
@@ -187,26 +186,16 @@ body {
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 	background-color: white;
-}
-#idf02{
-    width: 680px;
-}
-#idf04{
-    width:480px;
-}
-#idf06{
-	width:710px;
-}
-#idf08{
-	width: 780px;
-}
+
+}	
 
 #offres{
 	margin-left: 0px;
 	margin-right: 10px; 
 	margin-top:10px;
 	display: flex;
-	/*border: red solid 2px; */
+	border: red solid 2px; 
+	width:80%;
 }
 #idof{
 	width: 18px;
@@ -215,12 +204,12 @@ body {
 	border-radius: 50%;		
    	text-align: center;
 	position: relative;
-	top: 10px; 
+	top: 8px; 
 }
 
 #idof i{
 	position: relative;
-	top: -2px;
+	bottom: 2px;
 	font-size: 13px;
 	color: #0065FC;
 }
@@ -236,29 +225,30 @@ body {
 
 /*==============SECTION 02 ===============*/
 #sect02{
-	margin-top: 25px;
-	height: 645px;
-	/*border: blue solid 2px;*/
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-top: 35px;
+	height: 630px;
+	border: blue solid 2px;
 	display: flex;
-	justify-content: space-between;
-	position: relative;
-}
-.principal{
-	margin-left: 0px;
-	margin-right: 20px;
-	width: 810px;
-	background-color:#F2F2F2;
-	display: flex;
-	flex-direction: column;
-	border-radius: 15px;
+	margin-left:20px;
+	margin-right:20px;
 	
 }
+.principal{
+	width: 70%;
+	height: 600px;
+	background-color:#F2F2F2;
+	border-radius: 15px;
+	margin-right: 35px;
+}
 .principal h3{
+	width:100%;
 	padding-left: 32px;
 	position: relative;
 	top: 15px; 
+}
+#hebergements{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .bleu{
@@ -270,93 +260,73 @@ body {
 	font-size: 10px;
 }
 
-#hebergements01{
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 245px;
-	display: flex;
-	justify-content: space-between;
-}
-#hebergements02{
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 245px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.image11, .image14{
+#image11, #image12, #image13, #image14, #image15, #image16{
+	width: 28%;
+	height: 190px;
 	background-color: white;
 	font-size: small;
-	border: #fdfffa;
+	border: #fdfffa solid 2px;
 	border-radius: 13px;
-	margin-left: 20px; ;
-	margin-right: 20px;
-	margin-bottom: 20px;;
-
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 22px;
+	margin-right: 18px;
 }
-.image12, .image15{
-	background-color: white;
-	font-size: small;
-	border: #fdfffa;
-	border-radius: 13px;
-	margin-left: 15px; 
+.imheb{
+	height: 60%;
+}	
+.imheb img{
+	width:99%;
+	height: 100%;
+	border: #fdfffa solid 1px;
+	object-fit: cover;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
 }
-.image13, .image16{
-	background-color: white;
-	font-size: small;
-	border: #fdfffa;
-	border-radius: 13px;
-	margin-left: -4px; ;
 	
 }
-
-
-.image11 img, .image12 img, .image13 img, .image14 img, .image15 img, .image16 img {
-	width: 220px;
-	height: 135px;
-	border: #fdfffa solid 3px;
-	object-fit: cover;
-	border-top-left-radius:13px;
-	border-top-right-radius:13px;
+.legend01 a{
+	color: black;
+	text-decoration: none;
 }
-.legend01 a, .imtxt a{
+ 
+.noir_sstrait{
 	color: black;
 	text-decoration: none;
 }
 
 .legend01{
-	
+	height: 40%;
+	width:100%;
 	padding-top: 8px;
 	padding-left: 10px;
+	margin-right:0px;
+	
 }
 .grastxt{
 	font-weight: bolder;
+	color: black;
 }
 
 #affch{
-	position: relative;
-	left: 30px;
-	top: 5px;
+	width:100%;
+	padding-left:22px;
 	
 }
 .affchplus{
 	text-decoration: none;
 	color: black;
 	font-weight: bolder;
-	font-size: 95%;
+	font-size: 98%;
 }
 
 /*=============== ASIDE ===============*/
 aside{
-	width: 373px;
-	height: 645px;
+	width: 30%;
+	height: 600px;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	margin-left: 0px;
-	
-
-	
 }
 
 #pop{
@@ -375,164 +345,144 @@ aside{
 	font-size: 20px;
 }
 
-#paveside{
-	height:578px;
-		
-}
-.image21{
+#hotelpop{
+    border: red solid 2px; 
+	
+} 
+#image21, #image22, #image23{
 	display: flex;
-	width: 320px;
-	margin-left: 25px;
-	background-color: #F2F2F2;
-	border-radius: 13px;
-	position: relative;
-	top: -2px;
+	height: 145px;
+	margin: 20px;
 }
-.image22{
-	display: flex;
-	width: 320px;
-	margin-left: 25px;
-	background-color: #F2F2F2;
-	border-radius: 13px;
-	position: relative;
-	top: 12px;
-}
-.image23{
-	display: flex;
-	width: 320px;
-	margin-left: 25px;
-	background-color: #F2F2F2;
-	border-radius: 13px;
-	position: relative;
-	top: 30px;
-}
-.imtxt{
-	width: 190px;
-	height: 134px;
-	border-top-right-radius: 13px;
-	border-bottom-right-radius: 13px;
-	background-color: white;
-	font-size: small;
-	border:white solid 3px;
-	padding-top: 10px;
-	padding-left: 10px;
-}
-.imtxt i{
-	position: relative;
-	top:45px;
-}
-
-.image21 img, .image22 img, .image23 img{
-	width: 130px;
+.impop{
+	width:40%;
+} 
+.impop img{
+	width:100%;
 	height: 145px;
 	border: #fdfffa solid 3px;
 	object-fit: cover;
 	border-top-left-radius: 13px;
 	border-bottom-left-radius: 13px;
 }
-/**============== SECTION 03 ===============*/
-.sect03{
-	/*border: #0065FC solid 3px;*/
-	margin-left: 20px;
-	margin-right: 20px;
-
-	
-}
-.sect03 h3{
-	padding-left: 38px;
-	position: relative;
-	top: 15px;
-
-}
-#activ{
-	height: 480px;
-	display: flex;
-	justify-content:flex-start; 
-	
-}
-#vieuxport img{
-	width: 275px;
-	height: 385px;
-	border: #f2f2f2 solid 3px;
-	object-fit: cover;
-	
-	border-top-left-radius:13px;
-	border-top-right-radius:13px;
-	position: relative; 
-	right: 5px;
-}
-#fort{
-	width: 275px;
-	height: 215px;
-	border: #f2f2f2 solid 3px;
-	object-fit: cover;
-	border-top-left-radius:13px;
-	border-top-right-radius:13px;
-	position: relative;
-	right: 56px;
-	
-}
-#iles{
-	width: 275px;
-	height: 104px;
-	border: #f2f2f2 solid 3px;
-	object-fit: cover;
-	border-top-left-radius:13px;
-	border-top-right-radius:13px;
-	position: relative;
-	right: 56px;
-}
-#parc img{
-	width: 275px;
-	height: 389px;
-	border: #f2f2f2 solid 3px;
-	object-fit: cover;
-	border-top-left-radius:13px;
-	border-top-right-radius:13px;
-	position: relative;
-	right: 110px;
-}
-#ndgarde{
-	width: 275px;
+.imtxt{
+	width: 60%;
 	height: 145px;
-	border: #f2f2f2 solid 3px;
-	object-fit: cover;
-	border-top-left-radius:13px;
-	border-top-right-radius:13px;
-	position: relative;
-	right: 161px;
-}
-#longchamp{
-	width: 275px;
-	height: 175px;
-	border: #f2f2f2 solid 3px;
-	object-fit: cover;
-	border-top-left-radius:13px;
-	border-top-right-radius:13px;
-	position: relative;
-	right: 161px;
-}
-#vieuxport figcaption{
-	position: relative;
-	right: 5px;
+	border-top-right-radius: 13px;
+	border-bottom-right-radius: 13px;
+	background-color: white;
+	font-size: small;
+	border:white solid 3px;
 }
 
-#fort_iles figcaption{
-	position: relative;
-	right: 56px;
+/**============== SECTION 03 ===============*/
+#activ{
+margin-left:20px;
 }
-#parc figcaption{
-	position: relative;
-	right: 110px;
+.sect03{
+	height: 430px;
+	border: #0065FC solid 3px; 
+	display:flex;
+	margin-left:20px;
+	margin-right:20px;
+	
+   
 }
-#notredame figcaption{
-	position: relative;
-	right: 161px;
+/*---------------------------------*/
+#activ01, #activ02, #activ03, #activ04{
+	width:25%;
+	border: red solid 1px;
+	margin-right: 22px;
 }
+.vieuxport{
+    width: 100%;
+   	height:89%;   
+	border: #f2f2f2 solid 1px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+}
+
+/*---------------------------------*/
+#activ02a{
+	height:58%;
+	border: green solid 1px;
+}
+.pomeg{
+	width: 100%;
+	height: 80%;
+	border: #f2f2f2 solid 1px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+} 
+#activ02b{
+	height:35%;
+	border: gray solid 1px;
+	margin-top:30px;
+}
+.frioul{
+	width: 100%;
+	height: 66%;
+	border: #f2f2f2 solid 1px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+}
+/*------------------------------*/
+.parc{
+	width: 100%;
+   	height:89%;   
+	border: #f2f2f2 solid 1px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+}
+/*------------------------------*/
+#activ04a{
+	height:45%;
+	border: green solid 1px;
+}
+.notredame{
+	width: 100%;
+	height: 73%;
+	border: #f2f2f2 solid 1px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+}
+#activ04b{
+	height:46%;
+	border: gray solid 1px;
+	margin-top:30px;
+}
+.longch{
+	width: 100%;
+	height: 78%;
+	border: #f2f2f2 solid 1px;
+	object-fit: cover;
+	border-top-left-radius:13px;
+	border-top-right-radius:13px;
+}
+#activ02{
+	position: relative;
+	left: 13px;
+}
+#activ03{
+	position: relative;
+	left: 17px;
+} 
+#activ04{
+	position: relative;
+	left: 26px;
+}
+
+/*------------------------------*/
 .legend02{
+	height: 40px;
+	width:100%;
 	font-size: small;
 	font-weight: bolder;
-	height: 40px;
 	border-left: #f2f2f2 solid 3px;
 	border-right: #f2f2f2 solid 3px;
 	border-bottom: #f2f2f2 solid 3px;
@@ -548,27 +498,23 @@ aside{
 /**================== FOOTER =================**/
 footer{
 	display: flex;
-	justify-content: flex-start;
 	font-size: small;
 	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	
 	background-color: rgb(223, 219, 219);
-	
-} 
+	padding-left:20px;
+}
 #apropos{
-	padding-left: 56px;
-/*	position: relative;
-	right: 100px; */
+	width: 33%; 
 }
 #nosheberg{
+	width:33%; 
 	position: relative;
-	left: 240px;
+	left: 40px;
 }
 #assistance{
-	position: relative;
-	left: 485px; 
+	 width:33%;
+	 position: relative;
+	 left: 25px;
 }
 .sstrait{
 	text-decoration: none;
@@ -577,24 +523,38 @@ footer{
 
 /*============= ADAPTATION RISPONSIVE ==============*/
 
+
+
 @media screen and (max-width: 765px)
 {
  	body{
 		font-family: 'Raleway', sans-serif;
-		overflow-x: hidden;
+		/*overflow-x: hidden; */
+		margin-left: 40px;
+		margin-right: 40px;
 	  }
+	  
           /*-----header------*/
 	#haut{
 		height: 150px;
-		width: 450px;
+		width: 100%;
 		display: block;
-		margin-bottom: 20px;
-		margin-left: 20px;
+		/* margin-bottom: 20px;
+		margin-left: 0px; */ 
 		border: red solid 2px;
 	}
+	
+	.logo_reservia{
+		/* position: relative;
+		left: 20px; */
+		padding-left: 20px;
+	}
+	
 	#trait{
 		position: relative;
 		top: 90px;
+		left:1px;
+		
 	}
 	#heber{
 		position: relative;
@@ -603,438 +563,266 @@ footer{
 	#act{
 		position: relative;
 		top: 20px;
-		left: 60px;
+		left: 50px;
 	}
 	#inscri{
 		position: relative;
 		bottom: 32px;
+		right: 50px;
+		
+		
 	}
+	#sect01{
+		position: relative;
+		left: 20px;
+		/* margin-left:20px; */
+	}
+	
+	#titre01{
+		padding-left: 0px;
+		padding-right:50px;
+	}
+	
 		/*--------Rechercher--------*/
+	.rech{
+		
+	}	
+	#incor{
+		width: 25%;
+	}
+	#champ{
+		width: 70%;
+	}
 	#rechercher{
 		visibility: hidden;
 	}
 	#butt{
 		visibility: visible;
+		color:white;
+		background-color: #0065FC;
+		border:#0065FC 1px;
+		position: relative;
+		right:98px;
+		border-radius:10px;
+		width:52px;
 	}
+	
 	.filtre{
-		width: 400px;
-		height: 180px;
-		margin-top:10px;
-		display: block; 
+		width: 100%;
+		height: 200px;
+		display: flex;
+		flex-direction:column;	
 		border: red solid 2px; 
-		 
+		margin-top:15px; 
 	}
 
 	#idf00{
 		font-weight: bold;
 		font-size: 90%;
-		/*border: blue solid 2px;*/
+		border: blue solid 2px;*/
+		
+	}
+	.eco{
+		width: 160px;
+		position: relative;
+		left: 0px;
+		top:10px;
 	}
 	#idf01{
-		width:35px;
-		height: 35px;
-		background-color:#DEEBFF;
-		border-radius: 50%;		
-		text-align: center; 
 		position: relative;
 		left: 0px;
-		top: 7px;
 		z-index: 1;
-	}
-	#idf03{
-		width:35px;
-		height: 35px;
-		background-color:#DEEBFF;
-		border-radius: 50%;		
-		text-align: center; 
-		position: relative;
-		left: 158px;
-		top: -77px;
-		z-index: 1;
-	}
-	#idf05 {
-		width:35px;
-		height: 35px;
-		background-color:#DEEBFF;
-		border-radius: 50%;		
-		text-align: center; 
-		position: relative;
-		left: 0px;
-		top: -117px;
-		z-index: 1;
-	}
-	#idf07 {
-		width:35px;
-		height: 35px;
-		background-color:#DEEBFF;
-		border-radius: 50%;		
-		text-align: center; 
-		position: relative;
-		left: 0px;
-		top: -155px;
-		z-index: 1;
-	}
-
-	#idf01 i, #idf03 i, #idf05 i, #idf07 i{
-		position: relative;
-		top: 8px; 
-		font-size: 13px;
-		color: #0065FC;
-		left: 0px;
-	}
 	
-	#idf02, #idf04, #idf06, #idf08{
-		border: solid #F2F2F2;
-		height: 35px;
-		font-weight: bolder;
-		font-size: 90%;
-		text-align: center;
-		border-top-right-radius: 20px;
-		border-bottom-right-radius: 20px;
-		border-top-left-radius: 20px;
-		border-bottom-left-radius: 20px;
-		background-color: white;
 	}
 	#idf02{
-		width: 150px;
-		padding-left: 30px;
+		width:100%;
 		position: relative;
-		top: -28px;
+		right: 20px;
+		padding-left: 20px;
 	}
-	#idf04{
-		width:110px;
-		padding-left: 30px;
+	
+	.famille{
+		width:127px;
 		position: relative;
-		left: 157px;
-		top: -113px;
+		left: 148px;
+		bottom: 33px;
+		
+	}
+	#idf03{ 
+	 	position: relative;
+		left: 0px;
+		bottom: 0px;
+		z-index: 1;
+	}
+	#idf04{ 
+	 	position: relative;
+		right: 20px;
+		bottom: 0px;
+		padding-left: 20px;
+	} 
+	.roman{
+		width:160px;
+		position: relative;
+		right: 0px;
+		bottom: 30px;
+	}	
+	#idf05 {
+		 
+		position: relative;
+		left: 0px;
+		z-index: 1;
 	}
 	#idf06{
-		width:140px;
-		padding-left: 30px;
 		position: relative;
-		top: -152px;
+		right: 30px;
+		padding-left:28px;
 	}
-	#idf08{
-		width: 200px;
-		padding-left: 30px;
+	.autoriz{
+		width:208px;
 		position: relative;
-		top: -190px;
+		right: 0px;
+		bottom:27px;
 	}
+	#idf07 {
+		position: relative;
+		left: 0px;
+		z-index: 1;
+	}
+	#idf08 {
+		position: relative;
+		right: 30px;
+		padding-left:24px;
+	}
+	#offres{
+		margin-top:0px;
+	}
+	#offres p{
+		position: relative;
+		bottom:8px;
+	}
+	#idof{
+		position: relative;
+		top:2px;
+	}
+
 	  /*--------section02--------*/
 
 	  #sect02{
-		margin-top: 25px;
-		width: 450px;
+		/* margin-top: 25px;*/
+		
+		width: 100%;
 		height: 2000px;
+		
 		border: blue solid 2px;
-		margin-left: 0px;
-		margin-right: 10px;
+		/*margin-left: 0px;
+		margin-right: 10px; */
 		display: block;
 		/*display: flex;
-		justify-content: space-between; */
+		justify-content: space-between;*/
+		position: relative;	
 	}  
+
     aside{
-		width: 450px;
+		width: 100%;
 		position: absolute;
 		top: 0px;
 		border: solid red 1px;
-		height: 450px;
-		overflow: scroll;
+		height: 600px;
+
 	}
 	.principal{
 		position: absolute;
-		bottom: 5px;
-		height: 1540px;
+		bottom: 0px;
+		height: 1400px;
 		border: rgb(123, 255, 0) solid 1px;
-		width: 450px;
-		
+		width: 100%;
+	
 	}
-	#hebergements01{
+
+	#hebergements{
 		display: block;
 		height: 700px;
-		max-width: 400px;
+		width:100%;
+		/*max-width: 400px;
 		border: royalblue solid 1px;
 		/*margin-left: 10px; */
 	}
-
-	#hebergements02{
-		display: block;
-		height: 700px;
-		max-width: 400px;
-		border: orange solid 1px;
-		margin-top: 15px; */
-	}
-		   /*---------------images hebergements et légendes----------------*/
-
-	.image11 img, .image12 img, .image14 img{
-		width: 310px;
-		height: 150px;
-		border: #873dcc solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
-		/*position: relative;
-		left: 5px;*/
-		padding-left: 0px;
-		padding-right:0px;
-	}
-	.image11 figcaption, .image12 figcaption, .image14 figcaption{
-		width: 300px;
-		background-color: palevioletred;
-		position: relative;
-		left: 0px;
-
-	}
-	.image13 img{
-		width: 310px;
-		height: 150px;
-		border: #873dcc solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
-		/*position: relative;
-		left: 5px;*/
-		padding-left: 0px;
-		padding-right:0px;	
-	}
-	.image13 figcaption {
-		width: 300px;
-		background-color: palevioletred;
-		position: relative;
-		left: 0px;
-	}
-	.image15 img{
-		width: 310px;
-		height: 150px;
-		border: #873dcc solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
-		/*position: relative;
-		left: 5px;*/
-		padding-left: 0px;
-		padding-right:0px;	
-	}
-
-	.image15 figcaption{
-		width: 300px;
-		background-color: palevioletred;
-		position: relative;
-		left: 0px;
-
-	}
-	.image16 img{
-		width: 310px;
-		height: 150px;
-		border: #873dcc solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
-		/*position: relative;
-		left: 5px;*/
-		padding-left: 0px;
-		padding-right:0px;	
-	}
-
-	.image16 figcaption{
-		width: 300px;
-		background-color: palevioletred;
-		position: relative;
-		left: 0px;
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-	.legend01{
-		width: 310px;
-		border: orangered solid 3px;
-		position: relative;
-		left: 20px;
-		
-	}
-	
-	#affch{
-		margin-top: 20px;
+	#image11, #image12, #image13, #image14, #image15, #image16{
+		width: 88%;
 	}
 
 	/*------------------activités à Marseille-----------------*/
-	#activ{
+	.sect03{
 		display: block;
-		width: 440px;
-		height: 1400px;
+		width: 100%;
+		height: 1025px;
 		border: orangered solid 1px;
 	}
 	
-	#vieuxport{
-			border: blueviolet solid 1px;
+	.vieuxport, .pomeg, .frioul, .parc, .notredame, .longch{
+		/*width: 100%;*/
+		height: 100px; 
 	}
-		
-		
-		
-	#parc, #notredome{
-			border: rgb(43, 153, 226) solid 1px;
-	}  
-	
-	#fort_iles{
-		display: block;
-		border: rgb(212, 15, 153) solid 1px;
-		/*padding: left 40px;*/ 
+	#activ01, #activ03{
+		width: 100%;
+		height: 149px;	
+		margin-bottom: 20px;
+	} 
+	#activ02, #activ04{
+		width: 100%;
 	}
-	#notredame{
-		display: block;
-		
-		border: rgb(9, 1, 17) solid 1px;
-		
-	}
-	
-	#vieuxport img{
-		width: 310px;
-		height: 150px;
-		border: #f2f2f2 solid 3px;
-		object-fit: cover;
-		
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
-		position: relative; 
-		left: 20px;
-	}
-	#fort{
-		width: 310px;
-		height: 150px;
-		border: #f2f2f2 solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
+	#activ01{
 		position: relative;
-		left: 20px; 		
+		/*right: 20px; */
 	}
-	#iles{
-		width: 310px;
-		height: 150px;
-		border: #f2f2f2 solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
+	#activ02{
 		position: relative;
-		left: 20px;
+		left: 0px;
 	}
-	#parc img{
-		width: 310px;
-		height: 150px;
-		border: #f2f2f2 solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
+	#activ03{
 		position: relative;
-		left: 20px; 
+		left: 0px;
 	}
-	#ndgarde{
-		width: 310px;
-		height: 150px;
-		border: #f2f2f2 solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
+	#activ04{
 		position: relative;
-		left: 20px; 
+		left: 0px;
 	}
-	#longchamp{
-		width: 310px;
-		height: 150px;
-		border: #f2f2f2 solid 3px;
-		object-fit: cover;
-		border-top-left-radius:13px;
-		border-top-right-radius:13px;
-		position: relative;
-		left: 20px; 
-	}
-	#vieuxport figcaption{
-		width: 310px;
-		position: relative;
-		left: 20px; 
-	}
-	
-	#fort_iles figcaption{
-		width: 310px;
-		position: relative;
-		left: 20px;
-	}
-	#parc figcaption{
-		width: 310px;
-		position: relative;
-		left: 20px;
-	}
-	#notredame figcaption{
-		width: 310px;
-		position: relative;
-		left: 20px;*/
-	}
-	.legend02{
-		font-size: small;
-		font-weight: bolder;
-		height: 40px;
-		border-left: #f2f2f2 solid 3px;
-		border-right: #f2f2f2 solid 3px;
-		border-bottom: #f2f2f2 solid 3px;
-		border-bottom-left-radius:13px;
-		border-bottom-right-radius:13px;
-		
-	}
-	.leg{
-		position: relative;
-		left: 10px;
-		top: 10px;
-	}
-	
-	/*------- Footer------*/
+
+	/*------- Footer------*/  
 	footer{
 		
 		display: block; 
-		height: 400px;
+		height: 480px; 
 		
-		font-size: small;
-		margin-top: 20px;
-		margin-left: 10px;
-		margin-right: 10px;
-		position: relative;
-		border: orangered solid 1px;
-		background-color: rgb(223, 219, 219);
+		/*font-size: small; */
+		
 		
 	}
 	
 	#apropos{
-		position: absolute;
+		position: relative;
 		top: 20px;
-		left: -20px;
-			}
+		margin-bottom:50px;
+		/*left: -20px;*/
+			} 
 	#nosheberg{
-		position: absolute;
-		top: 160px;
-		left: 35px;
-			}
+		position: relative;
+		left: 0px;
+		margin-bottom:40px;
+			} 
 	#assistance{
-		position: absolute;
-		top: 275px;
-		left: 35px;
+		position: relative;
+		left: 0px;
+		margin-bottom: 10px;
 	
 	}
-	.sstrait{
+	/*.sstrait{
 		text-decoration: none;
 		color: black;
 	}
-
-	
-	/*.legend02{
+*/
+	/*
+	.legend02{
 		width: 300px;
 	}
 	.imhb02{
@@ -1042,4 +830,9 @@ footer{
 
 	} */
 }
+
+
+
+	  
+
 
