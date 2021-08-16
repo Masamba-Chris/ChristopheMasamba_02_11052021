@@ -1,17 +1,25 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	/* overflow-x: hidden; */
+	/*margin: 20px; /**/
 	margin: 20px;
+	position: relative;
+	
+	border: solid red 1px;
+	
 }
 /*=================== SECTION 01 ( Logo et Accueil)================*/
 
 #haut{
+	/*width: 84%; */
 	height: 80px;
 	display: flex;
 	justify-content: space-between;
 	/*border: red solid 2px; */
 	margin-left:20px;
 	margin-right:20px;
+	/*position: relative;
+	left: 100px; */
 }
 
 .img_res{
@@ -57,11 +65,14 @@ body {
 /*============SECTION 01 bis ( Titre, recherche et filtre )=============*/
 
 #sect01{
+	/*width: 84%; */
 	margin-top: 10px;
 	background-color: #fdfffa;
-	/*border: #0065FC solid 3px; */
+	border: #0065FC solid 3px; 
 	margin-left:20px;
 	margin-right:20px;
+/*position: relative;
+	left: 100px; */
 }
 
 #titre01{
@@ -92,13 +103,13 @@ body {
 #iconr i{
 	position: relative;
 	top: 8px;
-	font-size: 13px; 
+	font-size: 13px;  
 }
 #champ{
-   	border: solid  #F2F2F2;;
+   	border: solid  #F2F2F2 1px;
 	margin-left: 0px;
 	height: 40px;
-	width: 179px; 
+	width: 200px; 
 	color: black;
 	font-weight: bold;  
 	text-indent: 10px;
@@ -115,18 +126,19 @@ body {
 	background-color: #0065FC; 
 	color: white ;
 	border: solid #0065FC; 
+	
 }
 #butt{
 		visibility: hidden;
 }		
 /*------------------------------*/
 .filtre{
-	width: 60%; 
+	width: 70%; 
 	display: flex;
 	justify-content:space-around;
 	padding-left:0;
-	margin-top:10px; 
-	/*border: red solid 2px; */
+	margin-top:15px; 
+	border: red solid 2px; 
 }
 #idf00{
 	font-weight: bold;
@@ -164,7 +176,7 @@ body {
 	border-radius: 50%;		
    	text-align: center;
 	position: relative;
-	left: 22px;
+	left: 28px;
 }
 
 #idf01 i, #idf03 i, #idf05 i, #idf07 i{
@@ -227,20 +239,21 @@ body {
 #sect02{
 
 	margin-top: 35px;
-	
-	height: 630px;
-	/*border: blue solid 2px; */
+	/*width: 84%; */
+	height: 620px;
+	border: blue solid 2px; /**/
 	display: flex;
 	margin-left:20px;
 	margin-right:20px;
+	/*margin-bottom: 1px;*/
 	
 }
 .principal{
-	width: 70%;
-	height: 600px;
+	width: 68%;
+	height: 576px;
 	background-color:#F2F2F2;
 	border-radius: 15px;
-	margin-right: 35px;
+	/*margin-right: 32px;*/
 }
 .principal h3{
 	width:100%;
@@ -253,11 +266,11 @@ body {
 	flex-wrap: wrap;
 }
 
-.bleu{
+.bleu1, .bleu2{
 	color: #0065FC;
 	font-size: 10px
 }
-.grise{
+.grise1, .grise2{
 	color: #F2F2F2;
 	font-size: 10px;
 }
@@ -269,13 +282,16 @@ body {
 	font-size: small;
 	border: #fdfffa solid 2px;
 	border-radius: 13px;
-	margin-top: 20px;
+	/*margin-top: 20px;
 	margin-bottom: 20px;
 	margin-left: 22px;
-	margin-right: 18px;
+	margin-right: 18px;*/
+	margin:14px;
+	position: relative;
+	left: 12px;
 }
 .imheb{
-	height: 60%;
+	height: 65%;
 }	
 .imheb img{
 	width:99%;
@@ -297,12 +313,16 @@ body {
 }
 
 .legend01{
-	height: 40%;
+	height: 35%;
 	width:100%;
-	padding-top: 8px;
+	padding-top: 10px;
 	padding-left: 10px;
 	margin-right:0px;
 	
+}
+.grise1, .bleu1 {
+	position: relative;
+	top: 5px;
 }
 .grastxt{
 	font-weight: bolder;
@@ -311,7 +331,7 @@ body {
 
 #affch{
 	width:100%;
-	padding-left:22px;
+	padding-left:27px;
 	
 }
 .affchplus{
@@ -323,11 +343,12 @@ body {
 
 /*=============== ASIDE ===============*/
 aside{
-	width: 30%;
-	height: 600px;
+	width: 32%;
+	height: 576px;
 	background-color: #F2F2F2;
 	border-radius: 15px;
-	margin-left: 0px;
+	/*margin-left: 0px;*/
+	margin-left: 35px;  
 }
 
 #pop{
@@ -340,7 +361,7 @@ aside{
 }
 #pop i{
 	position: relative;
-	left: 120px; 
+	left: 125px; 
 	top: 35px;
 	font-weight: bolder;
 	font-size: 20px;
@@ -352,35 +373,51 @@ aside{
 } */
 #image21, #image22, #image23{
 	display: flex;
-	height: 145px;
-	margin: 20px;
+	height: 140px;
+	margin: 26px;
+	position: relative;
+	bottom:12px;
+	left: 5px;
+	
 }
 .impop{
 	width:40%;
 } 
 .impop img{
 	width:100%;
-	height: 145px;
+	height: 137px;
 	border: #fdfffa solid 3px;
 	object-fit: cover;
 	border-top-left-radius: 13px;
 	border-bottom-left-radius: 13px;
 }
 .imtxt{
-	width: 60%;
-	height: 145px;
+	width: 53%;
+	height: 137px;
 	border-top-right-radius: 13px;
 	border-bottom-right-radius: 13px;
 	background-color: white;
 	font-size: small;
 	border:white solid 3px;
+		
 }
+.imtxt p{
+	padding-left: 10px;
+}
+.grise2, .bleu2 {
+	position: relative;
+	top: 55px;
+}
+
 
 /**============== SECTION 03 ===============*/
 #activ{
 margin-left:20px;
+margin-top: 1px;
+
 }
 .sect03{
+	/*width: 84%; */
 	height: 430px;
 	/*border: #0065FC solid 3px; */
 	display:flex;
@@ -499,6 +536,7 @@ margin-left:20px;
 /**================== FOOTER =================**/
 footer{
 	display: flex;
+	/*width: 86%; */
 	font-size: small;
 	margin-top: 20px;
 	background-color: rgb(223, 219, 219);
