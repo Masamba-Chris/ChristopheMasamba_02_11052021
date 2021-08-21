@@ -85,14 +85,26 @@ body {
 	font-size: 70%;
 	font-weight: normal;
 }
+
+#taratata{
+	width: 1240px;
+	border: solid black 1px;
+}
+#taratata p{
+	position: relative;
+	left: 35px;
+}
+
+
 .rech{
 	display:flex;
 	align-items: stretch;
-	/*border: blue solid 2px; */
+	border: blue solid 2px; 
 }
 
 #iconr{
-	width: 35px;
+	/*width: 35px;*/
+	width: 2.8%;
 	height: 40px;
     background-color: #F2F2F2;		
    	border-top-left-radius: 10px; 
@@ -109,7 +121,8 @@ body {
    	border: solid  #F2F2F2 1px;
 	margin-left: 0px;
 	height: 40px;
-	width: 200px; 
+	width: 16.129%; 
+	/*width: 25%; */ 
 	color: black;
 	font-weight: bold;  
 	text-indent: 10px;
@@ -117,7 +130,8 @@ body {
 
 #rechercher{
 	position: relative;
-	width: 120px;
+	/*width: 120px;*/
+	width: 10%;
 	height: 40px;
 	top: 0px;
 	left: 0px;
@@ -635,12 +649,19 @@ footer{
 		/*--------Rechercher--------*/
 	/*	
 	.rech{
+		border: red solid 1px;
+		/*width: 100%;
 	} */	
-	#incor{
-		width: 25%;
+	#iconr{
+		width: 15%;
+		/*border: rgb(43, 226, 113) solid 3px; */
 	}
 	#champ{
-		width: 70%;
+		width: 100%; 
+		position: relative;
+		/*left: 0px;*/
+		/*border: blueviolet solid 1px;*/
+		/*height: 46px;*/
 	}
 	#rechercher{
 		visibility: hidden;
@@ -651,9 +672,9 @@ footer{
 		background-color: #0065FC;
 		border:#0065FC 1px;
 		position: relative;
-		right:98px;
+		right:45px;
 		border-radius:10px;
-		width:52px;
+		width:55px;
 	}
 	
 	.filtre{
@@ -671,7 +692,7 @@ footer{
 		/*border: blue solid 2px; */
 	}
 	.eco{
-		width: 160px;
+		width: 174px;
 		position: relative;
 		left: 0px;
 		top:10px;
@@ -692,7 +713,7 @@ footer{
 	.famille{
 		width:127px;
 		position: relative;
-		left: 148px;
+		left: 162px;
 		bottom: 33px;
 		
 	}
@@ -782,6 +803,7 @@ footer{
 		width: 100%;
 		position: absolute;
 		top: 0px;
+		right: 1px;
 		/*border: solid red 1px;*/
 		height: 600px;
 		border-radius: 0%;
@@ -827,7 +849,7 @@ footer{
 		/*border: orangered solid 1px;*/
 		position: relative;
 		right: 20px;
-		
+			
 	}
 	
 	.vieuxport, .pomeg, .frioul, .parc, .notredame, .longch{
@@ -864,7 +886,8 @@ footer{
 	footer{
 		
 		display: block; 
-		height: 480px; 
+		height: 480px;
+	
 		
 		/*font-size: small; */
 		
