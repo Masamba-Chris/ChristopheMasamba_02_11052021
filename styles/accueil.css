@@ -3,7 +3,7 @@ body {
 	margin: 20px;
 	position: relative;
 	
-	border: solid red 1px;
+	/*border: solid red 1px; */
 	
 }
 /*=================== SECTION 01 ( Logo et Accueil)================*/
@@ -58,7 +58,7 @@ body {
 #sect01{
 	margin-top: 10px;
 	background-color: #fdfffa;
-	border: #0065FC solid 3px; 
+	/*border: #0065FC solid 3px;*/ 
 	margin-left:20px;
 	margin-right:20px;
 }
@@ -76,7 +76,7 @@ body {
 .rech{
 	display:flex;
 	align-items: stretch;
-	border: blue solid 2px; 
+	/*border: blue solid 2px;*/ 
 }
 
 #iconr{
@@ -126,7 +126,7 @@ body {
 	justify-content:space-around;
 	padding-left:0;
 	margin-top:15px; 
-	border: red solid 2px; 
+	/*border: red solid 2px; */
 }
 #idf00{
 	font-weight: bold;
@@ -227,7 +227,7 @@ body {
 
 	margin-top: 35px;
 	height: 620px;
-	border: blue solid 2px; 
+	/*border: blue solid 2px; */
 	display: flex;
 	margin-left:20px;
 	margin-right:20px;
@@ -396,7 +396,7 @@ margin-top: 1px;
 	display:flex;
 	margin-left:20px;
 	margin-right:20px;
-	border: green solid 2px;
+	/*border: green solid 2px;*/
 }
 /*=============Les Activités à Marseille =============*/
 #activ01, #activ02, #activ03, #activ04{
@@ -538,7 +538,7 @@ footer{
 		overflow-x: hidden;
 		margin-left: 57px;
 		margin-right:57px;
-		border: black solid 1px;
+		/*border: black solid 1px;*/
 	  }
 	  
         /*=============header ===========*/
@@ -580,7 +580,7 @@ footer{
 	#titre01{
 		padding-left: 0px;
 		padding-right:80px;
-		border: black solid 1px;
+		/*border: black solid 1px;*/
 	}
 	#iconr{
 		width: 15%;
@@ -688,7 +688,7 @@ footer{
 	}
 	#offres{
 		margin-top:0px;
-		border: red solid 1px;
+		/*border: red solid 1px;*/
 	}
 	#offres p{
 		position: relative;
@@ -724,7 +724,7 @@ footer{
 		border-radius: 0%;
 	}
 	#pop{
-		border: red solid 1px;
+		/*border: red solid 1px;*/
 		padding-right: 40px;
 	} 
 	#pop h3{
@@ -735,9 +735,9 @@ footer{
 		position: relative;
 		left:5px;
 	} 
-	.hotelpop{
+	/*.hotelpop{
 		border: #0065FC solid 1px;
-	}
+	}*/
 	#image21, #image22, #image23{
 		width: 95%;
 		margin-left: 12px;
@@ -775,7 +775,7 @@ footer{
 		display: block;
 		width: 100%;
 		height: 1300px;
-		border: orangered solid 1px;
+		/*border: orangered solid 1px; */
 		position: relative;
 		right: 20px;
 			
@@ -838,21 +838,21 @@ footer{
 		position: relative;
 		top: 20px;
 		margin-bottom: 50px;
-		border: #0065FC solid 1px;
+		/*border: #0065FC solid 1px; */
 	} 
 	#nosheberg{
 		width: 100%;
 		position: relative;
 		left: 0px;
 		margin-bottom:30px;
-		border: #0065FC solid 1px;
+		/*border: #0065FC solid 1px;*/
 	} 
 	#assistance{
 		width: 100%;
 		position: relative;
 		left: 0px;
 		margin-bottom: 10px;
-		border: #0065FC solid 1px;
+		/*border: #0065FC solid 1px; */
 	}
 }
 
