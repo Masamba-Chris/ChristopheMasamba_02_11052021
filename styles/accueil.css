@@ -2,9 +2,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	margin: 20px;
 	position: relative;
-	
-	/*border: solid red 1px; */
-	
+		
 }
 /*=================== SECTION 01 ( Logo et Accueil)================*/
 
@@ -23,7 +21,7 @@ body {
 
 .logo_reservia{
 	margin-left: 0px;
-	border: bleu solid 2px;
+	
 }
 #trait{
 
@@ -58,7 +56,6 @@ body {
 #sect01{
 	margin-top: 10px;
 	background-color: #fdfffa;
-	/*border: #0065FC solid 3px;*/ 
 	margin-left:20px;
 	margin-right:20px;
 }
@@ -76,7 +73,6 @@ body {
 .rech{
 	display:flex;
 	align-items: stretch;
-	/*border: blue solid 2px;*/ 
 }
 
 #iconr{
@@ -99,7 +95,8 @@ body {
 	height: 40px;
 	width: 16.129%; 
 	color: black;
-	font-weight: bold;  
+	font-weight: bold;
+	font-size: 95%;  
 	text-indent: 10px;
 }
 
@@ -126,41 +123,45 @@ body {
 	justify-content:space-around;
 	padding-left:0;
 	margin-top:15px; 
-	/*border: red solid 2px; */
+	
 }
 #idf00{
 	font-weight: bold;
-	font-size: 90%;
+	font-size: 95%;
 	position: relative;
 	top: 8px; 
 }
 
 .eco{
-	width:25%;
+	width:22%;
 	display:flex;
+	font-size: 100%;
 }
  
 .famille{
-	width: 18%;
+	width: 16%;
 	display:flex;
+	font-size: 100%;
 }
 .roman{
-	width: 22%;
+	width: 20%;
 	display:flex;
+	font-size: 100%;
 }
 .autoriz{
-	width: 30%;
+	width: 28%;
 	display:flex;
+	font-size: 100%;
 }
 
 #idf01, #idf03, #idf05, #idf07 {
-	min-width: 35px;
-	height: 35px;
+	min-width: 36px;
+	height: 36px;
     background-color:#DEEBFF;
 	border-radius: 50%;		
    	text-align: center;
 	position: relative;
-	left: 28px;
+	left: 20px;
 }
 
 #idf01 i, #idf03 i, #idf05 i, #idf07 i{
@@ -179,14 +180,13 @@ body {
 	text-align: center;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
-	border-top-left-radius: 20px;
-	border-bottom-left-radius: 20px;
 	background-color: white;
 
 }
 .choix{
 	position: relative;
 	top: 5px;
+	left: 5px;
 }	
 
 #offres{
@@ -227,7 +227,6 @@ body {
 
 	margin-top: 35px;
 	height: 620px;
-	/*border: blue solid 2px; */
 	display: flex;
 	margin-left:20px;
 	margin-right:20px;
@@ -392,11 +391,11 @@ margin-top: 1px;
 
 }
 .sect03{
-	height: 430px;
+	height: 460px;
 	display:flex;
 	margin-left:20px;
 	margin-right:20px;
-	/*border: green solid 2px;*/
+	
 }
 /*=============Les Activités à Marseille =============*/
 #activ01, #activ02, #activ03, #activ04{
@@ -419,7 +418,7 @@ margin-top: 1px;
 }
 .pomeg{
 	width: 100%;
-	height: 80%;
+	height: 82%;
 	border: #f2f2f2 solid 1px;
 	object-fit: cover;
 	border-top-left-radius:13px;
@@ -431,7 +430,7 @@ margin-top: 1px;
 }
 .frioul{
 	width: 100%;
-	height: 68%;
+	height: 70%;
 	border: #f2f2f2 solid 1px;
 	object-fit: cover;
 	border-top-left-radius:13px;
@@ -452,7 +451,7 @@ margin-top: 1px;
 }
 .notredame{
 	width: 100%;
-	height: 73%;
+	height: 77%;
 	border: #f2f2f2 solid 1px;
 	object-fit: cover;
 	border-top-left-radius:13px;
@@ -464,7 +463,7 @@ margin-top: 1px;
 }
 .longch{
 	width: 100%;
-	height: 80%;
+	height: 82%;
 	border: #f2f2f2 solid 1px;
 	object-fit: cover;
 	border-top-left-radius:13px;
@@ -472,15 +471,15 @@ margin-top: 1px;
 }
 #activ02{
 	position: relative;
-	left: 10px;
+	left: 8px;
 }
 #activ03{
 	position: relative;
-	left: 17px;
+	left: 15px;
 } 
 #activ04{
 	position: relative;
-	left: 26px;
+	left: 22px;
 }
 
 /*================= Légende 02 ===============*/
@@ -494,6 +493,8 @@ margin-top: 1px;
 	border-bottom: #f2f2f2 solid 3px;
 	border-bottom-left-radius:13px;
 	border-bottom-right-radius:13px;
+	position: relative;
+	right: 2px;
 }
 .leg{
 	position: relative;
@@ -538,7 +539,6 @@ footer{
 		overflow-x: hidden;
 		margin-left: 57px;
 		margin-right:57px;
-		/*border: black solid 1px;*/
 	  }
 	  
         /*=============header ===========*/
@@ -580,7 +580,7 @@ footer{
 	#titre01{
 		padding-left: 0px;
 		padding-right:80px;
-		/*border: black solid 1px;*/
+		
 	}
 	#iconr{
 		width: 15%;
@@ -630,12 +630,12 @@ footer{
 	#idf02{
 		width:100%;
 		position: relative;
-		right: 22px;
+		right: 20px;
 		padding-left: 20px;
 	}
 	
 	.famille{
-		width:127px;
+		width:136px;
 		position: relative;
 		left: 162px;
 		bottom: 33px;
@@ -643,13 +643,13 @@ footer{
 	}
 	#idf03{ 
 	 	position: relative;
-		left: 0px;
+		left: 5px;
 		bottom: 0px;
 		z-index: 1;
 	}
 	#idf04{ 
 	 	position: relative;
-		right: 22px;
+		right: 15px;
 		bottom: 0px;
 		padding-left: 20px;
 	} 
@@ -667,11 +667,11 @@ footer{
 	}
 	#idf06{
 		position: relative;
-		right: 32px;
-		padding-left:28px;
+		right: 22px;
+		padding-left:20px;
 	}
 	.autoriz{
-		width:208px;
+		width:210px;
 		position: relative;
 		right: 0px;
 		bottom:27px;
@@ -683,12 +683,12 @@ footer{
 	}
 	#idf08 {
 		position: relative;
-		right: 32px;
-		padding-left:24px;
+		right: 22px;
+		padding-left:20px;
 	}
 	#offres{
 		margin-top:0px;
-		/*border: red solid 1px;*/
+		
 	}
 	#offres p{
 		position: relative;
@@ -724,7 +724,6 @@ footer{
 		border-radius: 0%;
 	}
 	#pop{
-		/*border: red solid 1px;*/
 		padding-right: 40px;
 	} 
 	#pop h3{
@@ -735,9 +734,7 @@ footer{
 		position: relative;
 		left:5px;
 	} 
-	/*.hotelpop{
-		border: #0065FC solid 1px;
-	}*/
+	
 	#image21, #image22, #image23{
 		width: 95%;
 		margin-left: 12px;
@@ -775,7 +772,6 @@ footer{
 		display: block;
 		width: 100%;
 		height: 1300px;
-		/*border: orangered solid 1px; */
 		position: relative;
 		right: 20px;
 			
@@ -805,7 +801,6 @@ footer{
 	#activ02{
 		position: relative;
 		left: 0px;
-		/*margin-bottom: 10px;*/
 		bottom: 10px;
 	}
 	#activ03{
@@ -830,29 +825,32 @@ footer{
 	footer{
 		
 		display: block; 
-		height: 480px;
+		height: 400px;
+		
 	}
 	
 	#apropos{
 		width: 100%;
 		position: relative;
-		top: 20px;
+		top: 40px;
 		margin-bottom: 50px;
-		/*border: #0065FC solid 1px; */
+		
 	} 
 	#nosheberg{
 		width: 100%;
 		position: relative;
 		left: 0px;
+		top: 20px;
 		margin-bottom:30px;
-		/*border: #0065FC solid 1px;*/
+		
 	} 
 	#assistance{
 		width: 100%;
 		position: relative;
+		top: 20px;
 		left: 0px;
 		margin-bottom: 10px;
-		/*border: #0065FC solid 1px; */
+		
 	}
 }
 
