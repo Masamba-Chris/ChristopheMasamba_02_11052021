@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="Description" content="Trouver un hebergement et passer un séjour de vacances innoubliables en France"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
         <link rel="stylesheet" type="text/css" href="./styles/accueil.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700&display=swap" rel="stylesheet">
@@ -17,15 +19,15 @@
                 
             </div>
             <nav class="accueil">
-                <div id="trait" ></div>
                 <div class="textacc"> 
-                    <a href="hebergements.html" id="heber" >Hébergements</a>
-                    <a href="activités.html" id="act">Activités</a>
-                    <a href="s'inscrire.html" id="inscri">S'inscrire</a> 
+                    <a href="#sect02" id="heber" >Hébergements</a>
+                    <a href="#activ" id="act">Activités</a>
+                    <a href="#assistance" id="inscri">S'inscrire</a> 
                 </div>
+                <div id="trait"></div>         
             </nav>
         </div>
-
+        
         <!--=========================== SECTION 1 ============================-->
         <section id="sect01">
             <div id="titre01">
@@ -42,27 +44,52 @@
                     <button id="butt"><i class="fa fa-search" ></i></button>
                 
             </div>
-                      
+          <!--          
             <div class="filtre">
                         <div id="idf00">Filtres</div>
                         <div class="eco">
-                            <div id="idf01"><i class="fas fa-money-bill-wave-alt" ></i></div>
-                            <div id="idf02"><a class="choix" href="Eco.html">Economique</a></div> 
+                            <div id="ecoA"><i class="fas fa-money-bill-wave-alt" ></i></div>
+                            <div id="ecoB"><a class="choix" href="Eco.html">Economique</a></div> 
                         </div>
                         <div class="famille">
-                            <div id="idf03"><i class="fas fa-child"></i></div>
-                            <div id="idf04"><a class="choix" href="Famil.html">Familial</a></div>
+                            <div id="famA"><i class="fas fa-child"></i></div>
+                            <div id="famB"><a class="choix" href="Famil.html">Familial</a></div>
                         </div>
                         <div class="roman">
-                            <div id="idf05"><i class="fas fa-heart"></i></div>
-                            <div id="idf06"><a class="choix" href="Roman.html"> Romantique</a></div>
+                            <div id="romA"><i class="fas fa-heart"></i></div>
+                            <div id="romB"><a class="choix" href="Roman.html"> Romantique</a></div>
                         </div>
                         <div class="autoriz">
-                            <div id="idf07"><i class="fas fa-dog"></i></div>
-                            <div id="idf08"><a class="choix" href="Anim.html">Animaux autorisés</a></div>
+                            <div id="autoA"><i class="fas fa-dog"></i></div>
+                            <div id="autoB"><a class="choix" href="Anim.html">Animaux autorisés</a></div>
                         </div>
-            </div>        
+            </div>  
+        -->
             
+           <!----Test Filtre nouveau --> 
+            <div id="filtre">
+                <div id="boitefil"> 
+                  <div id="filT">Filtres</div>
+                  <div class="eco">
+                      <div id="ecoA"><i class="fas fa-money-bill-wave-alt" ></i></div>
+                      <div id="ecoB"><a class="choix" href="Eco.html">Economique</a></div> 
+                  </div>
+                  <div class="famille">
+                      <div id="famA"><i class="fas fa-child"></i></div>
+                      <div id="famB"><a class="choix" href="Famil.html">Familial</a></div>
+                      </div>
+                  <div class="roman">
+                      <div id="romA"><i class="fas fa-heart"></i></div>
+                      <div id="romB"><a class="choix" href="Roman.html"> Romantique</a></div>
+                  </div>
+                  <div class="autoriz">
+                      <div id="autoA"><i class="fas fa-dog"></i></div>
+                      <div id="autoB"><a class="choix" href="Anim.html">Animaux autorisés</a></div>
+                  </div>
+              </div>
+            </div> 
+         <!----Fin Test nouveau Filtre-------->   
+         <!-------ligne offre -------->
             <div id="offres">
                         <div id="idof"><i class="fas fa-info"></i></div>
                         <p>Plus de 500 logements sont disponibles dans cette ville</p> 

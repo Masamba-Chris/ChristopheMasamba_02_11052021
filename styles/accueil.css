@@ -2,16 +2,17 @@ body {
 	font-family: 'Raleway', sans-serif;
 	margin: 20px;
 	position: relative;
+	overflow-x: hidden;
 		
 }
 /*=================== SECTION 01 ( Logo et Accueil)================*/
 
 #haut{
-	height: 80px;
 	display: flex;
 	justify-content: space-between;
 	margin-left:20px;
 	margin-right:20px;
+	border: green solid 1px; 
 }
 .img_res{
 	width: 20% ;
@@ -22,33 +23,40 @@ body {
 .logo_reservia{
 	margin-left: 0px;
 	
-}
-#trait{
-
-	width:160px;
-	height:2px;
-	background-color: #0065FC;
-	font-size:0;
-	position: relative;
-	top: 0px; left: 10px;
-}
+} 
 .accueil{
 	margin-right: 0px;
 }
+#heber, #act, #inscri{
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:45px;
+}
+#heber:hover{
+	border-top: solid #0065FC 2px;
+}
+#act:hover{
+	border-top: solid #0065FC 2px;
+}
+#inscri:hover{
+	border-top: solid #0065FC 2px;
+}
+
 .textacc{
 	width: 400px;
 	display: flex;
 	justify-content: space-around;
 	font-size: 15px;
-	color: #0065FC;
-	position:relative;
-	top:40px
+	height: 80px;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 .textacc a{
 	text-decoration: none;
 }
 .textacc a:hover{
-	color:black;
+	color: #0065FC;
 }
 
 /*============SECTION 01 bis ( Titre, recherche et filtre )=============*/
@@ -58,6 +66,7 @@ body {
 	background-color: #fdfffa;
 	margin-left:20px;
 	margin-right:20px;
+	border: green solid 1px;
 }
 
 #titre01{
@@ -73,6 +82,7 @@ body {
 .rech{
 	display:flex;
 	align-items: stretch;
+	border: green solid 1px;
 }
 
 #iconr{
@@ -114,66 +124,104 @@ body {
 	
 }
 #butt{
-		visibility: hidden;
+	margin-left: 0px; 
+	visibility: hidden;
 }		
-/*===================Filtre======================*/
-.filtre{
-	width: 70%; 
+#filtre{
+	/*border: blue solid 3px; */
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#boitefil{
+	/*width: 100%;*/ 
 	display: flex;
-	justify-content:space-around;
-	padding-left:0;
-	margin-top:15px; 
+	justify-content: start;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	/*	 border: red solid 3px; */ 
+	padding-right: 5px;
 	
 }
-#idf00{
+
+#filT{ 
+	width: 5%;
 	font-weight: bold;
 	font-size: 95%;
-	position: relative;
-	top: 8px; 
+	border: green solid 1px;
+		position: relative;
+		top: 0px;
+		padding-top: 6px; 
 }
-
+				
+			 /*****Conteneurs filtre *****/
+				
 .eco{
-	width:22%;
+	/*max-width:210px;
+	min-width: 12%; */
+	width: 16%;
 	display:flex;
-	font-size: 100%;
+	font-size: 1em; 
+	border: green solid 1px;
+	position: relative;
 }
  
 .famille{
-	width: 16%;
+	/*max-width: 150px;
+	min-width: 10%; */
+	width: 11%;
 	display:flex;
-	font-size: 100%;
+	font-size: 1em;
+	border: green solid 1px;
+	position: relative;
 }
 .roman{
-	width: 20%;
+	/*max-width: 200px;
+	min-width: 12%; */
+	width: 14%;
 	display:flex;
-	font-size: 100%;
+	font-size: 1em;
+	border: green solid 1px;
+	position: relative;
 }
 .autoriz{
-	width: 28%;
+	/*max-width: 220px;
+	min-width: 16%; */
+	width: 20%;
 	display:flex;
-	font-size: 100%;
+	font-size: 1em;
+	border: green solid 1px;
+	position: relative;
 }
 
-#idf01, #idf03, #idf05, #idf07 {
+.eco, .famille, .roman, .autoriz{
+		margin-left: 20px;
+} 
+	 		/*** conteneur Contour-Icônes***/
+				
+	#ecoA, #famA, #romA, #autoA { 
 	min-width: 36px;
-	height: 36px;
+	height: auto;
     background-color:#DEEBFF;
 	border-radius: 50%;		
    	text-align: center;
-	position: relative;
-	left: 20px;
+   		z-index: 1;
 }
-
-#idf01 i, #idf03 i, #idf05 i, #idf07 i{
+				
+     		/******Icônes ******/
+			  
+#ecoA i, #famA i, #romA i, #autoA i{
 	font-size: 13px;
 	color: #0065FC;
 	position: relative;
 	top: 8px; 
 }
-
-#idf02, #idf04, #idf06, #idf08{
+			
+			/*****label****/
+			 
+#ecoB, #famB, #romB, #autoB{
 	border: solid #F2F2F2;
-	width:100%;
+	width:150%;
  	height: 30px;
 	font-weight: bolder;
 	font-size: 90%;
@@ -181,20 +229,30 @@ body {
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	background-color: white;
+	position: relative;
+	right: 12%;
 
-}
+}  
+				
+	/****position texte****/
+				
 .choix{
+	text-decoration: none;
+	color: black;
 	position: relative;
 	top: 5px;
 	left: 5px;
-}	
+}
+.choix:hover {
+  background-color: gold;
+}
 
 #offres{
 	margin-left: 0px;
 	margin-right: 10px; 
-	margin-top:10px;
 	display: flex;
 	width:85%;
+	border: red solid 1px;
 }
 #idof{
 	width: 18px;
@@ -217,30 +275,24 @@ body {
 	font-size:80%;
 }
 
-.choix{
-	text-decoration: none;
-	color: black;
-}
-.choix:hover {
-  background-color: gold;
-}
-
-/*================SECTION 02 ===============*/
+	/*================SECTION 02 ===============*/
 #sect02{
-
+	/*width: 100%;*/
 	margin-top: 35px;
-	height: 620px;
+	/*height: 620px; */
 	display: flex;
 	margin-left:20px;
 	margin-right:20px;
+	border: green solid 3px;
 		
 }
 .principal{
 	width: 68%;
-	height: 576px;
+	/*height: 576px;*/
+	height: 100%;
 	background-color:#F2F2F2;
 	border-radius: 15px;
-	
+	border: red solid 3px;
 }
 .principal h3{
 	width:100%;
@@ -251,6 +303,7 @@ body {
 #hebergements{
 	display: flex;
 	flex-wrap: wrap;
+	
 }
 
 .bleu1, .bleu2{
@@ -315,6 +368,7 @@ body {
 #affch{
 	width:100%;
 	padding-left:27px;
+	margin-top:5.5%;
 	
 }
 .affchplus{
@@ -327,24 +381,27 @@ body {
 /*=============== ASIDE ===============*/
 aside{
 	width: 32%;
-	height: 576px;
+	/*height: 576px; */
+	height: 100%;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	margin-left: 35px;  
+	border: #800046 solid 3px;
 }
 
 #pop{
 	display: flex;
+	border: green solid 1px;
+	height: 57px;
+	position: relative;
 }
 #pop h3{
-	padding-left: 28px;
-	position: relative;
-	top: 15px; 
+	padding-top: 5%;
+	padding-left: 8%
 }
 #pop i{
-	position: relative;
-	left: 125px; 
-	top: 35px;
+	padding-top: 10%;
+	padding-left: 32%; 
 	font-weight: bolder;
 	font-size: 20px;
 }
@@ -383,7 +440,7 @@ aside{
 }
 .grise2, .bleu2 {
 	position: relative;
-	top: 55px;
+	top: 5px;
 }
 
 
@@ -531,14 +588,239 @@ footer{
 	color: black;
 }
 
+/*====================Adaptation Tablette PORTRAIT==================================*/
+@media screen and (max-width: 768px) and (orientation: portrait){
+	body{
+		font-family: 'Raleway', sans-serif;
+		overflow-x: hidden;
+		/*margin-left: 8px;
+		margin-right:8px;
+		margin-top: 0px;*/
+	  }
+	
+
+	#iconr{
+		width: 6%;
+	}
+	#champ{
+		width: 25%; 
+	}
+	#rechercher{
+		width: 15%; 
+	}
+	/*==================*/
+	#ecoB, #famB, #romB, #autoB{
+		font-size: 75%;
+	}
+	.filtre{
+		width: 100%; 
+	}
+    .eco{
+		width:22%;
+		display:flex;
+		/*font-size:auto;*/
+		
+	}
+	
+	.famille{
+		width: 16%;
+		display:flex;
+		/*font-size: auto;*/
+	}
+	.roman{
+		width: 20%;
+		display:flex;
+		/*font-size: auto;*/
+	}
+	.autoriz{
+		width: 28%;
+		display:flex;
+		/*font-size: auto;*/
+	}
+	/*======================*/
+	#sect02{
+		width: 94%;
+		height: 800px;
+		display: flex;
+	}  
+	.principal{
+		height: 800px;
+		width: 100%;
+	}
+	#hebergements{
+		height: 740px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#image11, #image12, #image13, #image14, #image15, #image16{
+		width: 40%;
+	}	
+	.legend01{
+		height: 50%;
+		width:120%;
+	}
+    aside{
+		width: 70%;
+		height: 800px;
+		border-radius: 15px;
+		margin-left: 10px;
+	}
+	#pop i{
+		position: relative;
+		left: 25px; 
+	}
+	#image21, #image22, #image23{
+		width: 80%;
+		margin-left: 25px;
+	}
+	#image22{
+		position: relative;
+		top: 75px;
+	}
+	#image23{
+		position: relative;
+		top: 167px;
+	}
+	.grise2, .bleu2 {
+		padding-bottom: 4px;
+	}
+	#activ{
+		margin-left:20px;
+		margin-top:20px;
+		margin-bottom: 15px;
+	}
+	.sect03{
+		margin-top: 20px;
+	}
+	
+}
+
+/*====================Adaptation Tablette PAYSAGE==================================*/
+
+@media screen and (max-width: 768px) and (orientation: landscape){
+	
+	body{
+		font-family: 'Raleway', sans-serif;
+		overflow-x: hidden;
+		/*margin-left: 8px;
+		margin-right:8px;
+		margin-top: 0px;*/
+	  }
+	
+
+	#iconr{
+		width: 6%;
+	}
+	#champ{
+		width: 25%; 
+	}
+	#rechercher{
+		width: 15%; 
+	}
+	/*=====================================*/
+	#ecoB, #famB, #romB, #autoB{
+		font-size: 75%;
+	}
+	.filtre{
+		width: 100%; 
+	}
+    /*======================================*/
+	
+	.eco{
+		width:22%;
+		display:flex;
+		/*font-size:auto;*/
+		
+	}
+	
+	.famille{
+		width: 16%;
+		display:flex;
+		/*font-size: auto;*/
+	}
+	.roman{
+		width: 20%;
+		display:flex;
+		/*font-size: auto;*/
+	}
+	.autoriz{
+		width: 28%;
+		display:flex;
+		/*font-size: auto;*/
+	}
+
+
+
+
+
+	/*=======================================*/
+	#sect02{
+		width: 94%;
+		height: 800px;
+		display: flex;
+	}  
+	.principal{
+		height: 800px;
+		width: 100%;
+	}
+	#hebergements{
+		height: 740px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#image11, #image12, #image13, #image14, #image15, #image16{
+		width: 40%;
+	}	
+	.legend01{
+		height: 50%;
+		width:120%;
+	}
+    aside{
+		width: 70%;
+		height: 800px;
+		border-radius: 15px;
+		margin-left: 10px;
+	}
+	#pop i{
+		position: relative;
+		left: 25px; 
+	}
+	#image21, #image22, #image23{
+		width: 80%;
+		margin-left: 25px;
+	}
+	#image22{
+		position: relative;
+		top: 75px;
+	}
+	#image23{
+		position: relative;
+		top: 167px;
+	}
+	.grise2, .bleu2 {
+		padding-bottom: 4px;
+	}
+	#activ{
+		margin-left:20px;
+		margin-top:20px;
+		margin-bottom: 15px;
+	}
+	.sect03{
+		margin-top: 20px;
+	}
+	
+}
+
 /*============= ADAPTATION RISPONSIVE ==============*/
-@media screen and (max-width: 765px)
+@media only screen and (max-width: 767px)
+
 {
  	body{
 		font-family: 'Raleway', sans-serif;
 		overflow-x: hidden;
-		margin-left: 57px;
-		margin-right:57px;
+		margin-left: 8px;
+		margin-right:8px;
+		/*margin-top: 0px;*/
 	  }
 	  
         /*=============header ===========*/
@@ -553,25 +835,61 @@ footer{
 	.logo_reservia{
 		padding-left: 20px;
 	}
-	#trait{
-		position: relative;
-		top: 90px;
-		left:1px;
-	}
 	#heber{
 		position: relative;
 		top: 20px;
+		/*border:black solid 1px; */
+		height: 20px;
+		padding-left: 25px;
+		padding-right:50px;
+		padding-bottom: 6px;
 	}
 	#act{
 		position: relative;
 		top: 20px;
 		left: 50px;
+		/*border:black solid 1px;*/
+		height: 20px;
+		width: 110%;
+		padding-bottom: 6px;
+
+		
 	}
+
+
 	#inscri{
 		position: relative;
 		bottom: 32px;
-		right: 50px;
+		right: 15px;
+		/*border:black solid 1px; */
+		height: 15px;
+		padding-bottom: 10px;
+		width: 50%;
 	}
+   	#heber:hover{
+		padding-top:50px;
+		border-top: hidden;
+		border-bottom: solid #0065FC 2px;
+	}
+	#act:hover{
+		padding-top:50px;
+		border-top: hidden;
+		border-bottom: solid #0065FC 2px;
+	}
+	#inscri:hover{
+		padding-top:50px;
+		border-top: hidden;
+		border-bottom: solid #0065FC 2px;
+	}
+
+	#trait{
+		height: 2px;
+		border-top: #f2f2f2 solid 2px;
+		position: relative;
+		top:17px;
+		z-index: 0;
+	}
+
 	#sect01{
 		position: relative;
 		left: 0px;
@@ -582,12 +900,17 @@ footer{
 		padding-right:80px;
 		
 	}
+	.rech{
+		width: 100%; /***/
+	}
+
 	#iconr{
 		width: 15%;
 	}
 	#champ{
-		width: 100%; 
+		width: 60%; 
 		position: relative;
+		/*border: chocolate solid 1px;*/
 	}
 	#rechercher{
 		visibility: hidden;
@@ -605,87 +928,102 @@ footer{
 	
 	.filtre{
 		width: 100%;
-		height: 200px;
+		/*height: 100px;*/
+		border: green solid 10px;
+	}
+	#boitefil{
+		height: 250px;
 		display: flex;
 		flex-direction:column;	
 		margin-top:15px; 
+		border: rgb(216, 22, 113) solid 3px;
 	}
 
-	#idf00{
+	#filT{
 		font-weight: bold;
 		font-size: 90%;
+		/*border: green solid 1px;*/
 	}
+
 	.eco{
-		width: 174px;
+		width: 185px;
 		position: relative;
-		left: 0px;
+		right:20px;
 		top:10px;
+		
 	}
-	#idf01{
+		
+	#ecoA{
 		position: relative;
 		left: 0px;
 		z-index: 1;
 	
-	}
-	#idf02{
+	}	
+	#ecoB{
 		width:100%;
 		position: relative;
 		right: 20px;
 		padding-left: 20px;
+		
 	}
 	
 	.famille{
-		width:136px;
+		width:125px;
 		position: relative;
-		left: 162px;
-		bottom: 33px;
+		left: 200px;
+		bottom: 11%;
 		
 	}
-	#idf03{ 
+	#famA{ 
 	 	position: relative;
 		left: 5px;
 		bottom: 0px;
 		z-index: 1;
 	}
-	#idf04{ 
+	#famB{ 
 	 	position: relative;
 		right: 15px;
 		bottom: 0px;
 		padding-left: 20px;
+		border: green solid 1px;
 	} 
 	.roman{
-		width:164px;
+		width: 180px;
 		position: relative;
-		right: 0px;
-		bottom: 30px;
+		right: 20px;
+		bottom: 5%;
 	}	
-	#idf05 {
+	#romA {
 		 
 		position: relative;
 		left: 0px;
 		z-index: 1;
 	}
-	#idf06{
+	#romB {
 		position: relative;
 		right: 22px;
 		padding-left:20px;
+		
 	}
 	.autoriz{
 		width:210px;
 		position: relative;
-		right: 0px;
-		bottom:27px;
+		right: 20px;
+		bottom:0%;
 	}
-	#idf07 {
+	#autoA{
 		position: relative;
 		left: 0px;
 		z-index: 1;
 	}
-	#idf08 {
+	#autoB{
 		position: relative;
 		right: 22px;
 		padding-left:20px;
+		
 	}
+
+	/********ligne offres*****/
 	#offres{
 		margin-top:0px;
 		
@@ -708,11 +1046,12 @@ footer{
 	  /*============== section02 =============*/
 
 	  #sect02{
-		width: 100%;
+		
+		/*width: 100%; */
 		height: 2000px;
 		display: block;
 		position: relative;	
-		right: 20px; ;
+		right: 20px;
 	}  
 
     aside{
@@ -720,8 +1059,10 @@ footer{
 		position: absolute;
 		top: 0px;
 		right: 1px;
-		height: 600px;
+		/*height: 600px;*/
 		border-radius: 0%;
+		
+		
 	}
 	#pop{
 		padding-right: 40px;
@@ -742,9 +1083,10 @@ footer{
 	.principal{
 		position: absolute;
 		bottom: 0px;
-		height: 1400px;
+		/*height: 10%;*/
 		width: 100%;
-		background-color: white;	
+		background-color: white;
+		margin-top: 10px;	
 	}
 	.principal h3{
 		position: relative;
@@ -770,9 +1112,10 @@ footer{
 	.sect03{
 		display: block;
 		width: 100%;
-		height: 1300px;
+		/*height: 1300px;*/
 		position: relative;
 		right: 20px;
+		margin-top: 10px;
 			
 	}
 	.vieuxport, .pomeg, .frioul, .parc, .notredame, .longch{
@@ -822,7 +1165,8 @@ footer{
 	/*=============== Footer =============*/  
 	footer{
 		display: block; 
-		height: 400px;
+		/*height: 400px;*/
+		margin-top: 10px;
 	}
 	#apropos{
 		width: 100%;
@@ -845,86 +1189,3 @@ footer{
 		margin-bottom: 10px;
 	}
 }
-/*===============================================================*/
-@media screen and (min-width: 765px) and (max-width: 950px){
-	
-	#iconr{
-		width: 6%;
-	}
-	#champ{
-		width: 25%; 
-	}
-	#rechercher{
-		width: 15%; 
-	}
-	/*=====================================*/
-	#idf02, #idf04, #idf06, #idf08{
-		font-size: 80%;
-	}
-	.filtre{
-		width: 100%; 
-	}
-    /*======================================*/
-	#sect02{
-		width: 94%;
-		height: 800px;
-		display: flex;
-	}  
-	.principal{
-		height: 800px;
-		width: 100%;
-	}
-	#hebergements{
-		height: 740px;
-		display: flex;
-		flex-wrap: wrap;
-	}
-	#image11, #image12, #image13, #image14, #image15, #image16{
-		width: 40%;
-	}	
-	.legend01{
-		height: 50%;
-		width:120%;
-	}
-    aside{
-		width: 70%;
-		height: 800px;
-		border-radius: 15px;
-		margin-left: 10px;
-	}
-	#pop i{
-		position: relative;
-		left: 25px; 
-	}
-	#image21, #image22, #image23{
-		width: 80%;
-		margin-left: 25px;
-	}
-	#image22{
-		position: relative;
-		top: 75px;
-	}
-	#image23{
-		position: relative;
-		top: 167px;
-	}
-	.grise2, .bleu2 {
-		position: relative;
-		top: 45px;
-	}
-	#activ{
-		margin-left:20px;
-		margin-top:20px;
-		margin-bottom: 15px;
-	}
-	.sect03{
-		margin-top: 20px;
-	}
-	
-}
-
-
-
-	  
-
-
