@@ -12,7 +12,7 @@ body {
 	justify-content: space-between;
 	margin-left:20px;
 	margin-right:20px;
-	border: green solid 1px; 
+	/* border: green solid 1px;  */
 }
 .img_res{
 	width: 20% ;
@@ -66,7 +66,7 @@ body {
 	background-color: #fdfffa;
 	margin-left:20px;
 	margin-right:20px;
-	border: green solid 1px;
+	/* border: green solid 1px; */
 }
 
 #titre01{
@@ -82,7 +82,7 @@ body {
 .rech{
 	display:flex;
 	align-items: stretch;
-	border: green solid 1px;
+	/* border: green solid 1px; */
 }
 
 #iconr{
@@ -104,6 +104,7 @@ body {
 	margin-left: 0px;
 	height: 40px;
 	width: 16.129%; 
+	
 	color: black;
 	font-weight: bold;
 	font-size: 95%;  
@@ -112,7 +113,8 @@ body {
 
 #rechercher{
 	position: relative;
-	width: 10%;
+	width: 12%;
+	
 	height: 40px;
 	top: 0px;
 	left: 0px;
@@ -128,18 +130,22 @@ body {
 	visibility: hidden;
 }		
 #filtre{
-	/*border: blue solid 3px; */
+	/*height: 200px;*/
+	/* border: blue solid 3px; */
+	display: flex;
 	margin-top: 20px;
 	margin-bottom: 10px;
+	padding-top: 0px;
 }
 #boitefil{
-	/*width: 100%;*/ 
+	width: 90%; 
+	/*height: 150px;*/
 	display: flex;
 	justify-content: start;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	/* margin-top: 10px;
+	margin-bottom: 10px; */
 	margin-left: 0px;
-	/*	 border: red solid 3px; */ 
+	/* border: red solid 3px;  */
 	padding-right: 5px;
 	
 }
@@ -148,10 +154,11 @@ body {
 	width: 5%;
 	font-weight: bold;
 	font-size: 95%;
-	border: green solid 1px;
-		position: relative;
-		top: 0px;
-		padding-top: 6px; 
+	/* border: green solid 1px; */
+	text-align: start;
+	padding-top: 10px;
+		
+		/* padding-top: 6px;  */
 }
 				
 			 /*****Conteneurs filtre *****/
@@ -160,9 +167,9 @@ body {
 	/*max-width:210px;
 	min-width: 12%; */
 	width: 16%;
-	display:flex;
+	/* display:flex; */
 	font-size: 1em; 
-	border: green solid 1px;
+	/* border: rgb(119, 128, 0) solid 2px; */
 	position: relative;
 }
  
@@ -170,27 +177,27 @@ body {
 	/*max-width: 150px;
 	min-width: 10%; */
 	width: 11%;
-	display:flex;
+	/* display:flex; */
 	font-size: 1em;
-	border: green solid 1px;
+	/* border: green solid 1px; */
 	position: relative;
 }
 .roman{
 	/*max-width: 200px;
 	min-width: 12%; */
 	width: 14%;
-	display:flex;
+	/* display:flex; */
 	font-size: 1em;
-	border: green solid 1px;
+	/* border: green solid 1px; */
 	position: relative;
 }
 .autoriz{
 	/*max-width: 220px;
 	min-width: 16%; */
 	width: 20%;
-	display:flex;
+	/* display:flex; */
 	font-size: 1em;
-	border: green solid 1px;
+	/* border: green solid 1px; */
 	position: relative;
 }
 
@@ -200,8 +207,10 @@ body {
 	 		/*** conteneur Contour-Icônes***/
 				
 	#ecoA, #famA, #romA, #autoA { 
-	min-width: 36px;
-	height: auto;
+	/* margin-left: 0px; */
+	float: left;
+	min-width: 35px;
+	height: 35px;
     background-color:#DEEBFF;
 	border-radius: 50%;		
    	text-align: center;
@@ -221,16 +230,18 @@ body {
 			 
 #ecoB, #famB, #romB, #autoB{
 	border: solid #F2F2F2;
-	width:150%;
+	width:100%;
  	height: 30px;
 	font-weight: bolder;
 	font-size: 90%;
 	text-align: center;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 	background-color: white;
-	position: relative;
-	right: 12%;
+	/*position: relative;
+	right: 12%; */
 
 }  
 				
@@ -252,7 +263,7 @@ body {
 	margin-right: 10px; 
 	display: flex;
 	width:85%;
-	border: red solid 1px;
+	/* border: red solid 1px; */
 }
 #idof{
 	width: 18px;
@@ -279,11 +290,12 @@ body {
 #sect02{
 	/*width: 100%;*/
 	margin-top: 35px;
-	/*height: 620px; */
+	/* height: 1500px; */
 	display: flex;
 	margin-left:20px;
 	margin-right:20px;
-	border: green solid 3px;
+	margin-bottom: 35px;
+	/* border: green solid 3px; */
 		
 }
 .principal{
@@ -292,7 +304,8 @@ body {
 	height: 100%;
 	background-color:#F2F2F2;
 	border-radius: 15px;
-	border: red solid 3px;
+	/* border: red solid 3px; */
+	
 }
 .principal h3{
 	width:100%;
@@ -366,9 +379,10 @@ body {
 }
 
 #affch{
-	width:100%;
-	padding-left:27px;
-	margin-top:5.5%;
+	width:30%;
+	float:left;
+	margin-bottom:6.5%;
+	padding-left: 24px;
 	
 }
 .affchplus{
@@ -386,25 +400,39 @@ aside{
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	margin-left: 35px;  
-	border: #800046 solid 3px;
+	/* border: #800046 solid 3px; */
+	padding-bottom: 4px;
 }
 
 #pop{
-	display: flex;
-	border: green solid 1px;
+	/* display: flex; */
+	/* border: green solid 1px; */
 	height: 57px;
 	position: relative;
 }
 #pop h3{
-	padding-top: 5%;
-	padding-left: 8%
+	float: left;
+	/* padding-top: 4%;
+	padding-left: 8% */
+	position: absolute;
+	top: 20%; left: 10%;
 }
-#pop i{
-	padding-top: 10%;
-	padding-left: 32%; 
+#ipop{
+	float:right;
 	font-weight: bolder;
 	font-size: 20px;
-}
+	position: absolute;
+	bottom: 0%; right: 10%;
+} 
+
+/* #pop i{
+	float: right;
+	margin-bottom: 10%;
+	/* padding-top: 10%; */
+	/* padding-left: 28%;  */
+	/*font-weight: bolder;
+	font-size: 20px;
+} */
 #image21, #image22, #image23{
 	display: flex;
 	height: 140px;
@@ -439,8 +467,9 @@ aside{
 	padding-left: 10px;
 }
 .grise2, .bleu2 {
+	float: bottom;
 	position: relative;
-	top: 5px;
+	top: 53px; 
 }
 
 
@@ -588,116 +617,9 @@ footer{
 	color: black;
 }
 
-/*====================Adaptation Tablette PORTRAIT==================================*/
-@media screen and (max-width: 768px) and (orientation: portrait){
-	body{
-		font-family: 'Raleway', sans-serif;
-		overflow-x: hidden;
-		/*margin-left: 8px;
-		margin-right:8px;
-		margin-top: 0px;*/
-	  }
-	
-
-	#iconr{
-		width: 6%;
-	}
-	#champ{
-		width: 25%; 
-	}
-	#rechercher{
-		width: 15%; 
-	}
-	/*==================*/
-	#ecoB, #famB, #romB, #autoB{
-		font-size: 75%;
-	}
-	.filtre{
-		width: 100%; 
-	}
-    .eco{
-		width:22%;
-		display:flex;
-		/*font-size:auto;*/
-		
-	}
-	
-	.famille{
-		width: 16%;
-		display:flex;
-		/*font-size: auto;*/
-	}
-	.roman{
-		width: 20%;
-		display:flex;
-		/*font-size: auto;*/
-	}
-	.autoriz{
-		width: 28%;
-		display:flex;
-		/*font-size: auto;*/
-	}
-	/*======================*/
-	#sect02{
-		width: 94%;
-		height: 800px;
-		display: flex;
-	}  
-	.principal{
-		height: 800px;
-		width: 100%;
-	}
-	#hebergements{
-		height: 740px;
-		display: flex;
-		flex-wrap: wrap;
-	}
-	#image11, #image12, #image13, #image14, #image15, #image16{
-		width: 40%;
-	}	
-	.legend01{
-		height: 50%;
-		width:120%;
-	}
-    aside{
-		width: 70%;
-		height: 800px;
-		border-radius: 15px;
-		margin-left: 10px;
-	}
-	#pop i{
-		position: relative;
-		left: 25px; 
-	}
-	#image21, #image22, #image23{
-		width: 80%;
-		margin-left: 25px;
-	}
-	#image22{
-		position: relative;
-		top: 75px;
-	}
-	#image23{
-		position: relative;
-		top: 167px;
-	}
-	.grise2, .bleu2 {
-		padding-bottom: 4px;
-	}
-	#activ{
-		margin-left:20px;
-		margin-top:20px;
-		margin-bottom: 15px;
-	}
-	.sect03{
-		margin-top: 20px;
-	}
-	
-}
-
 /*====================Adaptation Tablette PAYSAGE==================================*/
 
-@media screen and (max-width: 768px) and (orientation: landscape){
+@media all and (min-width: 425px) and (max-width: 1116px){
 	
 	body{
 		font-family: 'Raleway', sans-serif;
@@ -706,46 +628,65 @@ footer{
 		margin-right:8px;
 		margin-top: 0px;*/
 	  }
-	
 
+	.rech{
+		width: 100%;
+	}  
 	#iconr{
-		width: 6%;
+		width: 10%;
 	}
 	#champ{
-		width: 25%; 
+		/*width: 25%;*/ 
+		width: 45%;
 	}
 	#rechercher{
-		width: 15%; 
+		/*width: 15%;*/ 
+		width: 45%;
 	}
 	/*=====================================*/
 	#ecoB, #famB, #romB, #autoB{
 		font-size: 75%;
 	}
-	.filtre{
+	#filtre{
 		width: 100%; 
+		
 	}
+	#filT{
+		margin-right: 5%;
+	}
+	#boitefil{
+		flex-wrap: wrap;
+		/* border: indigo solid 1px; */
+		padding-bottom: 5px;
+	}
+
+
+
     /*======================================*/
 	
 	.eco{
-		width:22%;
-		display:flex;
+		width:34%;
+		/* display:flex; */
 		/*font-size:auto;*/
 		
 	}
 	
 	.famille{
-		width: 16%;
-		display:flex;
+		width: 30%;
+		/* display:flex; */
 		/*font-size: auto;*/
 	}
 	.roman{
-		width: 20%;
-		display:flex;
+		width: 32%;
+		/* display:flex; */
 		/*font-size: auto;*/
+		margin-top: 10px;
 	}
 	.autoriz{
-		width: 28%;
-		display:flex;
+		width: 40%;
+		/* display:flex; */
+		margin-top: 10px;
+		margin-left: 60px;
 		/*font-size: auto;*/
 	}
 
@@ -755,47 +696,69 @@ footer{
 
 	/*=======================================*/
 	#sect02{
-		width: 94%;
-		height: 800px;
-		display: flex;
+		/*width: 100%;*/
+		/* height: 1500px;  */
+		display: block;
+		position: relative;
+		/* border: green solid 3px; */
 	}  
 	.principal{
-		height: 800px;
+		/* height: 52%;  */
+		height: 780px;
 		width: 100%;
+		/* position: absolute;
+		top: 0px; */
+		background-color: white;
+		margin-bottom: 10px;	
+		/* border: red solid 1px;  */
 	}
 	#hebergements{
 		height: 740px;
 		display: flex;
 		flex-wrap: wrap;
+		
 	}
 	#image11, #image12, #image13, #image14, #image15, #image16{
-		width: 40%;
+		width: 43%;
 	}	
 	.legend01{
 		height: 50%;
 		width:120%;
 	}
     aside{
-		width: 70%;
-		height: 800px;
+		width: 100%;
+		/* height: 30%; */
+		height: 570px;
 		border-radius: 15px;
-		margin-left: 10px;
+		margin-left: 0px;
+		
+		/* position: absolute;
+		bottom: 262px; */
+		right: 1px; 
+		/* border: hotpink solid 1px; */
 	}
-	#pop i{
+	/* #pop h3{
+		margin-bottom: 25%;
+	} */
+
+	/* #ipop{
 		position: relative;
-		left: 25px; 
-	}
+		right: 20px; 
+	} */
 	#image21, #image22, #image23{
 		width: 80%;
-		margin-left: 25px;
+		margin-left: 11%;
+		margin-bottom: 10px;
 	}
 	#image22{
 		position: relative;
-		top: 75px;
+
+		/* top: 75px; */
 	}
 	#image23{
 		position: relative;
-		top: 167px;
+
+		/* top: 167px; */
 	}
 	.grise2, .bleu2 {
 		padding-bottom: 4px;
@@ -811,16 +774,17 @@ footer{
 	
 }
 
-/*============= ADAPTATION RISPONSIVE ==============*/
-@media only screen and (max-width: 767px)
+/* ============= ADAPTATION RISPONSIVE ==============*/
+@media all and (max-width: 425px)
 
 {
  	body{
-		font-family: 'Raleway', sans-serif;
 		overflow-x: hidden;
-		margin-left: 8px;
-		margin-right:8px;
+		/* margin-left: 8px;
+		margin-right:8px; */
 		/*margin-top: 0px;*/
+		margin-left: 8px;
+		margin-right: 8px;
 	  }
 	  
         /*=============header ===========*/
@@ -830,6 +794,7 @@ footer{
 		display: block;
 		position: relative;
 		right: 20px;
+		/* border: green solid 1px; */
 	}
 	
 	.logo_reservia{
@@ -860,7 +825,7 @@ footer{
 	#inscri{
 		position: relative;
 		bottom: 32px;
-		right: 15px;
+		right: 35px;
 		/*border:black solid 1px; */
 		height: 15px;
 		padding-bottom: 10px;
@@ -891,8 +856,11 @@ footer{
 	}
 
 	#sect01{
+		/*height: 500px; /***/
 		position: relative;
 		left: 0px;
+		/* border: green solid 1px; */
+		margin-right: 10px;
 	}
 	
 	#titre01{
@@ -909,7 +877,7 @@ footer{
 	}
 	#champ{
 		width: 60%; 
-		position: relative;
+		/*position: relative;*/
 		/*border: chocolate solid 1px;*/
 	}
 	#rechercher{
@@ -926,103 +894,53 @@ footer{
 		width:55px;
 	}
 	
-	.filtre{
-		width: 100%;
-		/*height: 100px;*/
-		border: green solid 10px;
+	#filtre{
+		/* width: 100%; */
+		display: flex;
+		flex-direction: column;
+		/* border: green solid 2px; */
 	}
 	#boitefil{
-		height: 250px;
-		display: flex;
-		flex-direction:column;	
-		margin-top:15px; 
-		border: rgb(216, 22, 113) solid 3px;
+		width: 98%;
+		display: flex; 
+		/* flex-direction:column;	 */
+		flex-wrap: wrap;
+		/* margin-top:15px;  */
+		padding-top: 10px;
+		/* border: rgb(21, 9, 187) solid 2px; */
 	}
 
-	#filT{
-		font-weight: bold;
-		font-size: 90%;
-		/*border: green solid 1px;*/
+    #filT{
+		width: 100%;
+		/* border: red solid 2px ; */
 	}
-
-	.eco{
-		width: 185px;
-		position: relative;
-		right:20px;
-		top:10px;
-		
-	}
-		
-	#ecoA{
-		position: relative;
-		left: 0px;
-		z-index: 1;
-	
-	}	
-	#ecoB{
-		width:100%;
+ 	.eco{
+		width: 50%;
 		position: relative;
 		right: 20px;
-		padding-left: 20px;
-		
+		/* margin-left: 0px; */
 	}
-	
 	.famille{
-		width:125px;
+		width: 35%;
 		position: relative;
-		left: 200px;
-		bottom: 11%;
-		
+		right: 20px;
 	}
-	#famA{ 
-	 	position: relative;
-		left: 5px;
-		bottom: 0px;
-		z-index: 1;
-	}
-	#famB{ 
-	 	position: relative;
-		right: 15px;
-		bottom: 0px;
-		padding-left: 20px;
-		border: green solid 1px;
-	} 
 	.roman{
-		width: 180px;
+		width: 48%;
+		margin-top: 10px;
 		position: relative;
 		right: 20px;
-		bottom: 5%;
+		/* margin-left: 0px; */
 	}	
-	#romA {
-		 
-		position: relative;
-		left: 0px;
-		z-index: 1;
-	}
-	#romB {
-		position: relative;
-		right: 22px;
-		padding-left:20px;
-		
-	}
 	.autoriz{
-		width:210px;
+		width:70%;
+		margin-top: 10px;
+		margin-bottom: 10px;
 		position: relative;
-		right: 20px;
-		bottom:0%;
+		right: 6%;
+		/* margin-left: 0px; */
 	}
-	#autoA{
-		position: relative;
-		left: 0px;
-		z-index: 1;
-	}
-	#autoB{
-		position: relative;
-		right: 22px;
-		padding-left:20px;
-		
-	}
-
+	
 	/********ligne offres*****/
 	#offres{
 		margin-top:0px;
@@ -1047,11 +965,14 @@ footer{
 
 	  #sect02{
 		
-		/*width: 100%; */
-		height: 2000px;
+		width: 100%; 
+		height: 1920px;
 		display: block;
 		position: relative;	
+		margin-right: 8px;
 		right: 20px;
+		border: green solid 2px;
+
 	}  
 
     aside{
@@ -1059,7 +980,7 @@ footer{
 		position: absolute;
 		top: 0px;
 		right: 1px;
-		/*height: 600px;*/
+		height: 590px;
 		border-radius: 0%;
 		
 		
@@ -1073,16 +994,17 @@ footer{
 	}
 	#ipop{
 		position: relative;
-		left:5px;
+		left:15px;
+		top: 28px;
 	} 
 	
 	#image21, #image22, #image23{
 		width: 95%;
-		margin-left: 12px;
+		margin-left: 3%; 
 	}
 	.principal{
-		position: absolute;
-		bottom: 0px;
+     	 position: relative;
+		 top: 566px;
 		/*height: 10%;*/
 		width: 100%;
 		background-color: white;
@@ -1095,7 +1017,7 @@ footer{
 
 	#hebergements{
 		display: block;
-		height: 700px;
+		height: 1200px;
 		width:100%;
 		margin-top: 30px;
 	}
@@ -1109,23 +1031,30 @@ footer{
 	}
 
 	/*================= Activités à Marseille =================*/
+	#activ{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
 	.sect03{
 		display: block;
 		width: 100%;
-		/*height: 1300px;*/
+		height: 1570px;
 		position: relative;
 		right: 20px;
 		margin-top: 10px;
-			
+		
+		margin-right: 5px;	
+		border: green solid 1px;
 	}
 	.vieuxport, .pomeg, .frioul, .parc, .notredame, .longch{
 		width: 90%;
-		height: 150px;
-		margin-left: 15px; 
+		height: 190px;
+		margin-left: 20px; 
 	}
 	.legend02{
 		width: 90%;
 		margin-left: 15px;
+		height: 50px;
 	}
 	#activ01, #activ03{
 		width: 100%;
@@ -1139,20 +1068,15 @@ footer{
 	#activ01{
 		position: relative;
 	}
-	#activ02{
+	#activ02, #activ03 {
 		position: relative;
 		left: 0px;
-		bottom: 10px;
-	}
-	#activ03{
-		position: relative;
-		left: 0px;
-		bottom: 10px;
+		top: 36px;
 	}
 	#activ04{
 		position: relative;
 		left: 0px;
-		bottom: 20px;
+		top: 75px;
 	}
 	#activ02b{
 		position: relative;
@@ -1165,8 +1089,9 @@ footer{
 	/*=============== Footer =============*/  
 	footer{
 		display: block; 
-		/*height: 400px;*/
+		height: 400px;
 		margin-top: 10px;
+		margin-left:10px; ;
 	}
 	#apropos{
 		width: 100%;
