@@ -1,18 +1,21 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	margin: 20px;
+	/* margin-left: 8px;
+	margin-right: 8px; */
+	padding: 8px;
 	position: relative;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
+	border: red solid 1px;
 		
 }
-/*=================== SECTION 01 ( Logo et Accueil)================*/
+/*=================== HEADER ( Logo et Accueil)================*/
 
 #haut{
 	display: flex;
 	justify-content: space-between;
 	margin-left:20px;
 	margin-right:20px;
-	/* border: green solid 1px;  */
+	
 }
 .img_res{
 	width: 20% ;
@@ -59,14 +62,14 @@ body {
 	color: #0065FC;
 }
 
-/*============SECTION 01 bis ( Titre, recherche et filtre )=============*/
+/*===============SECTION 01 ( Titre, recherche et filtre )==============*/
 
-#sect01{
+#part01{
 	margin-top: 10px;
 	background-color: #fdfffa;
 	margin-left:20px;
 	margin-right:20px;
-	/* border: green solid 1px; */
+	
 }
 
 #titre01{
@@ -82,7 +85,7 @@ body {
 .rech{
 	display:flex;
 	align-items: stretch;
-	/* border: green solid 1px; */
+	
 }
 
 #iconr{
@@ -130,8 +133,7 @@ body {
 	visibility: hidden;
 }		
 #filtre{
-	/*height: 200px;*/
-	/* border: blue solid 3px; */
+	
 	display: flex;
 	margin-top: 20px;
 	margin-bottom: 10px;
@@ -139,13 +141,12 @@ body {
 }
 #boitefil{
 	width: 90%; 
-	/*height: 150px;*/
+	
 	display: flex;
 	justify-content: start;
-	/* margin-top: 10px;
-	margin-bottom: 10px; */
+	
 	margin-left: 0px;
-	/* border: red solid 3px;  */
+	
 	padding-right: 5px;
 	
 }
@@ -154,50 +155,45 @@ body {
 	width: 5%;
 	font-weight: bold;
 	font-size: 95%;
-	/* border: green solid 1px; */
+	
 	text-align: start;
 	padding-top: 10px;
 		
-		/* padding-top: 6px;  */
+		
 }
 				
 			 /*****Conteneurs filtre *****/
 				
 .eco{
-	/*max-width:210px;
-	min-width: 12%; */
+	
 	width: 16%;
-	/* display:flex; */
+	
 	font-size: 1em; 
-	/* border: rgb(119, 128, 0) solid 2px; */
+	
 	position: relative;
 }
  
 .famille{
-	/*max-width: 150px;
-	min-width: 10%; */
+	
 	width: 11%;
-	/* display:flex; */
+	
 	font-size: 1em;
-	/* border: green solid 1px; */
+	
 	position: relative;
 }
 .roman{
-	/*max-width: 200px;
-	min-width: 12%; */
+	
 	width: 14%;
-	/* display:flex; */
+	
 	font-size: 1em;
-	/* border: green solid 1px; */
+	
 	position: relative;
 }
 .autoriz{
-	/*max-width: 220px;
-	min-width: 16%; */
 	width: 20%;
-	/* display:flex; */
+	
 	font-size: 1em;
-	/* border: green solid 1px; */
+	
 	position: relative;
 }
 
@@ -207,7 +203,7 @@ body {
 	 		/*** conteneur Contour-Icônes***/
 				
 	#ecoA, #famA, #romA, #autoA { 
-	/* margin-left: 0px; */
+	
 	float: left;
 	min-width: 35px;
 	height: 35px;
@@ -240,8 +236,7 @@ body {
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
 	background-color: white;
-	/*position: relative;
-	right: 12%; */
+	
 
 }  
 				
@@ -263,7 +258,7 @@ body {
 	margin-right: 10px; 
 	display: flex;
 	width:85%;
-	/* border: red solid 1px; */
+	
 }
 #idof{
 	width: 18px;
@@ -287,24 +282,25 @@ body {
 }
 
 	/*================SECTION 02 ===============*/
-#sect02{
-	/*width: 100%;*/
+#part02{
+	
 	margin-top: 35px;
-	/* height: 1500px; */
+	
 	display: flex;
 	margin-left:20px;
 	margin-right:20px;
 	margin-bottom: 35px;
-	/* border: green solid 3px; */
+	/* border: green solid 3px;  */
 		
 }
+	/*------------Partie GAUCHE-----------*/
 .principal{
 	width: 68%;
-	/*height: 576px;*/
+	
 	height: 100%;
 	background-color:#F2F2F2;
 	border-radius: 15px;
-	/* border: red solid 3px; */
+	
 	
 }
 .principal h3{
@@ -392,28 +388,24 @@ body {
 	font-size: 98%;
 }
 
-/*=============== ASIDE ===============*/
+/*------------- Partie Droite -----------*/
 aside{
 	width: 32%;
-	/*height: 576px; */
+	
 	height: 100%;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	margin-left: 35px;  
-	/* border: #800046 solid 3px; */
 	padding-bottom: 4px;
 }
 
 #pop{
-	/* display: flex; */
-	/* border: green solid 1px; */
+	
 	height: 57px;
 	position: relative;
 }
 #pop h3{
 	float: left;
-	/* padding-top: 4%;
-	padding-left: 8% */
 	position: absolute;
 	top: 20%; left: 10%;
 }
@@ -425,14 +417,6 @@ aside{
 	bottom: 0%; right: 10%;
 } 
 
-/* #pop i{
-	float: right;
-	margin-bottom: 10%;
-	/* padding-top: 10%; */
-	/* padding-left: 28%;  */
-	/*font-weight: bolder;
-	font-size: 20px;
-} */
 #image21, #image22, #image23{
 	display: flex;
 	height: 140px;
@@ -473,13 +457,19 @@ aside{
 }
 
 
-/**============== SECTION 03 ===============*/
-#activ{
+/*=================== SECTION 03 =================*/
+#part03{
+	/* border: purple solid 1px; */
+	margin-top: 5px;
+	margin-bottom: 1px;
+}
+
+#activ_titre{
 margin-left:20px;
 margin-top: 1px;
 
 }
-.sect03{
+.activ_marseille{
 	height: 460px;
 	display:flex;
 	margin-left:20px;
@@ -491,7 +481,7 @@ margin-top: 1px;
 	width:25%;
 	margin-right: 22px;
 }
-/*=================Partie 1=================*/
+/*---------Activités Partie 1---------*/
 .vieuxport{
     width: 100%;
    	height:89%;   
@@ -501,7 +491,7 @@ margin-top: 1px;
 	border-top-right-radius:13px;
 }
 
-/*==================Partie 2================*/
+/*---------Activités Partie 2---------*/
 #activ02a{
 	height:58%;
 }
@@ -525,7 +515,7 @@ margin-top: 1px;
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 }
-/*==================Partie 3 =================*/
+/*---------Activités Partie 3---------*/
 .parc{
 	width: 100%;
    	height:89%;   
@@ -534,7 +524,7 @@ margin-top: 1px;
 	border-top-left-radius:13px;
 	border-top-right-radius:13px;
 }
-/*==================Partie 4 =================*/
+/*---------Activités Partie 4---------*/
 #activ04a{
 	height:45%;
 }
@@ -624,10 +614,9 @@ footer{
 	body{
 		font-family: 'Raleway', sans-serif;
 		overflow-x: hidden;
-		/*margin-left: 8px;
-		margin-right:8px;
-		margin-top: 0px;*/
-	  }
+		width: 95%;
+		/* padding-left: 1px; */
+	}
 
 	.rech{
 		width: 100%;
@@ -636,11 +625,11 @@ footer{
 		width: 10%;
 	}
 	#champ{
-		/*width: 25%;*/ 
+		
 		width: 45%;
 	}
 	#rechercher{
-		/*width: 15%;*/ 
+		
 		width: 45%;
 	}
 	/*=====================================*/
@@ -656,7 +645,7 @@ footer{
 	}
 	#boitefil{
 		flex-wrap: wrap;
-		/* border: indigo solid 1px; */
+		
 		padding-bottom: 5px;
 	}
 
@@ -666,28 +655,25 @@ footer{
 	
 	.eco{
 		width:34%;
-		/* display:flex; */
-		/*font-size:auto;*/
+		
 		
 	}
 	
 	.famille{
 		width: 30%;
-		/* display:flex; */
-		/*font-size: auto;*/
+		
 	}
 	.roman{
 		width: 32%;
-		/* display:flex; */
-		/*font-size: auto;*/
+		
 		margin-top: 10px;
 	}
 	.autoriz{
 		width: 40%;
-		/* display:flex; */
+		
 		margin-top: 10px;
 		margin-left: 60px;
-		/*font-size: auto;*/
+		
 	}
 
 
@@ -695,22 +681,20 @@ footer{
 
 
 	/*=======================================*/
-	#sect02{
-		/*width: 100%;*/
-		/* height: 1500px;  */
+	#part02{
+		
 		display: block;
 		position: relative;
-		/* border: green solid 3px; */
+		
 	}  
 	.principal{
-		/* height: 52%;  */
+		
 		height: 780px;
 		width: 100%;
-		/* position: absolute;
-		top: 0px; */
+		
 		background-color: white;
 		margin-bottom: 10px;	
-		/* border: red solid 1px;  */
+		
 	}
 	#hebergements{
 		height: 740px;
@@ -727,24 +711,16 @@ footer{
 	}
     aside{
 		width: 100%;
-		/* height: 30%; */
+		
 		height: 570px;
 		border-radius: 15px;
 		margin-left: 0px;
 		
-		/* position: absolute;
-		bottom: 262px; */
+		
 		right: 1px; 
-		/* border: hotpink solid 1px; */
+		
 	}
-	/* #pop h3{
-		margin-bottom: 25%;
-	} */
-
-	/* #ipop{
-		position: relative;
-		right: 20px; 
-	} */
+	
 	#image21, #image22, #image23{
 		width: 80%;
 		margin-left: 11%;
@@ -753,22 +729,26 @@ footer{
 	#image22{
 		position: relative;
 
-		/* top: 75px; */
+		
 	}
 	#image23{
 		position: relative;
 
-		/* top: 167px; */
+		
 	}
 	.grise2, .bleu2 {
 		padding-bottom: 4px;
 	}
-	#activ{
+	/* #part03{
+		 border: rgb(75, 194, 241) solid 2px; 
+	} */
+
+	#activ_titre{
 		margin-left:20px;
 		margin-top:20px;
 		margin-bottom: 15px;
 	}
-	.sect03{
+	.activ_marseille{
 		margin-top: 20px;
 	}
 	
@@ -780,11 +760,9 @@ footer{
 {
  	body{
 		overflow-x: hidden;
-		/* margin-left: 8px;
-		margin-right:8px; */
-		/*margin-top: 0px;*/
-		margin-left: 8px;
-		margin-right: 8px;
+		margin: 2px;
+		padding:0px;
+		
 	  }
 	  
         /*=============header ===========*/
@@ -794,7 +772,8 @@ footer{
 		display: block;
 		position: relative;
 		right: 20px;
-		/* border: green solid 1px; */
+		border: green solid 1px;
+		/* margin-left: 0px; */
 	}
 	
 	.logo_reservia{
@@ -803,17 +782,18 @@ footer{
 	#heber{
 		position: relative;
 		top: 20px;
-		/*border:black solid 1px; */
+		
 		height: 20px;
 		padding-left: 25px;
 		padding-right:50px;
 		padding-bottom: 6px;
+		border: greenyellow solid 1px;
 	}
 	#act{
 		position: relative;
 		top: 20px;
-		left: 50px;
-		/*border:black solid 1px;*/
+		left: 25px;
+		
 		height: 20px;
 		width: 110%;
 		padding-bottom: 6px;
@@ -825,11 +805,12 @@ footer{
 	#inscri{
 		position: relative;
 		bottom: 32px;
-		right: 35px;
-		/*border:black solid 1px; */
+		right: 75px;
+		
 		height: 15px;
 		padding-bottom: 10px;
 		width: 50%;
+		border: hotpink solid 1px;
 	}
    	#heber:hover{
 		padding-top:50px;
@@ -855,11 +836,9 @@ footer{
 		z-index: 0;
 	}
 
-	#sect01{
-		/*height: 500px; /***/
+	#part01{
 		position: relative;
 		left: 0px;
-		/* border: green solid 1px; */
 		margin-right: 10px;
 	}
 	
@@ -869,7 +848,7 @@ footer{
 		
 	}
 	.rech{
-		width: 100%; /***/
+		width: 100%; 
 	}
 
 	#iconr{
@@ -877,8 +856,7 @@ footer{
 	}
 	#champ{
 		width: 60%; 
-		/*position: relative;*/
-		/*border: chocolate solid 1px;*/
+		
 	}
 	#rechercher{
 		visibility: hidden;
@@ -895,30 +873,27 @@ footer{
 	}
 	
 	#filtre{
-		/* width: 100%; */
 		display: flex;
 		flex-direction: column;
-		/* border: green solid 2px; */
 	}
 	#boitefil{
 		width: 98%;
 		display: flex; 
-		/* flex-direction:column;	 */
+		
 		flex-wrap: wrap;
-		/* margin-top:15px;  */
+		
 		padding-top: 10px;
-		/* border: rgb(21, 9, 187) solid 2px; */
 	}
 
     #filT{
 		width: 100%;
-		/* border: red solid 2px ; */
+		
 	}
  	.eco{
 		width: 50%;
 		position: relative;
 		right: 20px;
-		/* margin-left: 0px; */
+		
 	}
 	.famille{
 		width: 35%;
@@ -930,7 +905,7 @@ footer{
 		margin-top: 10px;
 		position: relative;
 		right: 20px;
-		/* margin-left: 0px; */
+		
 	}	
 	.autoriz{
 		width:70%;
@@ -938,7 +913,7 @@ footer{
 		margin-bottom: 10px;
 		position: relative;
 		right: 6%;
-		/* margin-left: 0px; */
+		
 	}
 	
 	/********ligne offres*****/
@@ -963,15 +938,18 @@ footer{
 
 	  /*============== section02 =============*/
 
-	  #sect02{
+	#part02{
 		
 		width: 100%; 
-		height: 1920px;
+		height: 1950px;
 		display: block;
 		position: relative;	
 		margin-right: 8px;
 		right: 20px;
-		border: green solid 2px;
+		padding-bottom: 10px;
+		/* margin-left: 0px;  */
+		border:crimson solid 2px;
+		
 
 	}  
 
@@ -1003,12 +981,13 @@ footer{
 		margin-left: 3%; 
 	}
 	.principal{
-     	 position: relative;
-		 top: 566px;
-		/*height: 10%;*/
+     	position: relative;
+		top: 590px;
+		height: 1360px;
 		width: 100%;
 		background-color: white;
-		margin-top: 10px;	
+		margin-top: 10px;
+		border: green solid 2px;	
 	}
 	.principal h3{
 		position: relative;
@@ -1028,14 +1007,25 @@ footer{
 	#affch{
 		position: relative;
 		right: 5px;
+
 	}
 
 	/*================= Activités à Marseille =================*/
-	#activ{
+	/*=========================================================*/
+
+	#part03{
+		/* margin-left: 0px; */
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border: green solid 2px;
+	}
+	
+	#activ_titre{
 		margin-top: 10px;
 		margin-bottom: 10px;
+		
 	}
-	.sect03{
+	.activ_marseille{
 		display: block;
 		width: 100%;
 		height: 1570px;
@@ -1044,7 +1034,6 @@ footer{
 		margin-top: 10px;
 		
 		margin-right: 5px;	
-		border: green solid 1px;
 	}
 	.vieuxport, .pomeg, .frioul, .parc, .notredame, .longch{
 		width: 90%;
@@ -1053,7 +1042,7 @@ footer{
 	}
 	.legend02{
 		width: 90%;
-		margin-left: 15px;
+		margin-left: 20px;
 		height: 50px;
 	}
 	#activ01, #activ03{
@@ -1086,12 +1075,15 @@ footer{
 		position: relative;
 		bottom: 12px;
 	}
+
+
+	/*=======================================*/
 	/*=============== Footer =============*/  
 	footer{
 		display: block; 
 		height: 400px;
 		margin-top: 10px;
-		margin-left:10px; ;
+		/* margin-left:10px;  */
 	}
 	#apropos{
 		width: 100%;
@@ -1113,4 +1105,3 @@ footer{
 		left: 0px;
 		margin-bottom: 10px;
 	}
-}
