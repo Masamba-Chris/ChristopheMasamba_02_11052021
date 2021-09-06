@@ -762,9 +762,7 @@ footer{
 		overflow-x: hidden;
 		margin: 2px;
 		padding:0px;
-		
 	  }
-	  
         /*=============header ===========*/
 	#haut{
 		height: 150px;
@@ -773,16 +771,13 @@ footer{
 		position: relative;
 		right: 20px;
 		border: green solid 1px;
-		/* margin-left: 0px; */
 	}
-	
 	.logo_reservia{
 		padding-left: 20px;
 	}
 	#heber{
 		position: relative;
 		top: 20px;
-		
 		height: 20px;
 		padding-left: 25px;
 		padding-right:50px;
@@ -793,20 +788,14 @@ footer{
 		position: relative;
 		top: 20px;
 		left: 25px;
-		
 		height: 20px;
 		width: 110%;
 		padding-bottom: 6px;
-
-		
 	}
-
-
 	#inscri{
 		position: relative;
 		bottom: 32px;
 		right: 75px;
-		
 		height: 15px;
 		padding-bottom: 10px;
 		width: 50%;
@@ -827,7 +816,6 @@ footer{
 		border-top: hidden;
 		border-bottom: solid #0065FC 2px;
 	}
-
 	#trait{
 		height: 2px;
 		border-top: #f2f2f2 solid 2px;
@@ -835,28 +823,23 @@ footer{
 		top:17px;
 		z-index: 0;
 	}
-
 	#part01{
 		position: relative;
 		left: 0px;
 		margin-right: 10px;
 	}
-	
 	#titre01{
 		padding-left: 0px;
 		padding-right:80px;
-		
 	}
 	.rech{
 		width: 100%; 
 	}
-
 	#iconr{
 		width: 15%;
 	}
 	#champ{
 		width: 60%; 
-		
 	}
 	#rechercher{
 		visibility: hidden;
@@ -871,7 +854,6 @@ footer{
 		border-radius:10px;
 		width:55px;
 	}
-	
 	#filtre{
 		display: flex;
 		flex-direction: column;
@@ -879,21 +861,16 @@ footer{
 	#boitefil{
 		width: 98%;
 		display: flex; 
-		
 		flex-wrap: wrap;
-		
 		padding-top: 10px;
 	}
-
     #filT{
 		width: 100%;
-		
 	}
  	.eco{
 		width: 50%;
 		position: relative;
 		right: 20px;
-		
 	}
 	.famille{
 		width: 35%;
@@ -905,7 +882,6 @@ footer{
 		margin-top: 10px;
 		position: relative;
 		right: 20px;
-		
 	}	
 	.autoriz{
 		width:70%;
@@ -913,13 +889,10 @@ footer{
 		margin-bottom: 10px;
 		position: relative;
 		right: 6%;
-		
 	}
-	
 	/********ligne offres*****/
 	#offres{
 		margin-top:0px;
-		
 	}
 	#offres p{
 		position: relative;
@@ -935,11 +908,8 @@ footer{
 		position: relative;
 		bottom:5px;
 	}
-
 	  /*============== section02 =============*/
-
 	#part02{
-		
 		width: 100%; 
 		height: 1950px;
 		display: block;
@@ -947,12 +917,8 @@ footer{
 		margin-right: 8px;
 		right: 20px;
 		padding-bottom: 10px;
-		/* margin-left: 0px;  */
 		border:crimson solid 2px;
-		
-
 	}  
-
     aside{
 		width: 100%;
 		position: absolute;
@@ -960,8 +926,6 @@ footer{
 		right: 1px;
 		height: 590px;
 		border-radius: 0%;
-		
-		
 	}
 	#pop{
 		padding-right: 40px;
@@ -975,7 +939,6 @@ footer{
 		left:15px;
 		top: 28px;
 	} 
-	
 	#image21, #image22, #image23{
 		width: 95%;
 		margin-left: 3%; 
@@ -993,7 +956,6 @@ footer{
 		position: relative;
 		right: 10px;
 	}
-
 	#hebergements{
 		display: block;
 		height: 1200px;
@@ -1007,23 +969,17 @@ footer{
 	#affch{
 		position: relative;
 		right: 5px;
-
 	}
-
 	/*================= Activités à Marseille =================*/
-	/*=========================================================*/
-
 	#part03{
 		/* margin-left: 0px; */
 		margin-top: 5px;
 		margin-bottom: 5px;
 		border: green solid 2px;
 	}
-	
 	#activ_titre{
 		margin-top: 10px;
 		margin-bottom: 10px;
-		
 	}
 	.activ_marseille{
 		display: block;
@@ -1032,7 +988,6 @@ footer{
 		position: relative;
 		right: 20px;
 		margin-top: 10px;
-		
 		margin-right: 5px;	
 	}
 	.vieuxport, .pomeg, .frioul, .parc, .notredame, .longch{
@@ -1049,7 +1004,6 @@ footer{
 		width: 100%;
 		height: 190px;	
 		margin-bottom: 35px;
-
 	} 
 	#activ02, #activ04{
 		width: 100%;
@@ -1075,15 +1029,11 @@ footer{
 		position: relative;
 		bottom: 12px;
 	}
-
-
-	/*=======================================*/
 	/*=============== Footer =============*/  
 	footer{
 		display: block; 
 		height: 400px;
 		margin-top: 10px;
-		/* margin-left:10px;  */
 	}
 	#apropos{
 		width: 100%;
