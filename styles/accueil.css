@@ -37,7 +37,7 @@ body {
 	border-top: solid #0065FC 2px;
 }
 .textacc{
-	width: 400px;
+	/*width: 400px;*/ 
 	display: flex;
 	justify-content: space-around;
 	font-size: 15px;
