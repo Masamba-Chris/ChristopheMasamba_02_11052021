@@ -183,7 +183,7 @@ body {
 	border-bottom-left-radius: 20px;
 	background-color: white;
 }  
-	/****position texte****/
+			/****position texte****/
 .choix{
 	text-decoration: none;
 	color: black;
@@ -192,7 +192,7 @@ body {
 	left: 5px;
 }
 .choix:hover {
-  background-color: gold;
+  	background-color: gold;
 }
 #offres{
 	margin-left: 0px;
@@ -521,6 +521,21 @@ footer{
 		overflow-x: hidden;
 		width: 95%;
 	}
+	/* #heber:hover{
+		padding-top:50px;
+		border-top: hidden;
+		border-bottom: solid #0065FC 2px;
+	}
+	#act:hover{
+		padding-top:50px;
+		border-top: hidden;
+		border-bottom: solid #0065FC 2px;
+	}
+	#inscri:hover{
+		padding-top:50px;
+		border-top: hidden;
+		border-bottom: solid #0065FC 2px;
+	}	 */
 	.rech{
 		width: 100%;
 	}  
@@ -563,6 +578,9 @@ footer{
 		margin-top: 10px;
 		margin-left: 60px;
 	}
+	.choix:hover {
+		background-color: rgb(255, 0, 157);
+	  }
 	/*=======================================*/
 	#part02{
 		display: block;
@@ -633,13 +651,13 @@ footer{
 		position: relative;
 		/* right: 20px; */
 		/* right: 10px;  */
-		border: green solid 1px;
+		/* border: green solid 1px; */
 		/* margin-right: 0px; */
 		
 	}
 	.logo_reservia{
 		padding-left: 0px;
-		border: green solid 4px;
+		/* border: green solid 4px; */
 	}
 	#heber{
 		position: relative;
@@ -647,9 +665,9 @@ footer{
 		left: 2px;
 		height: 20px;
 		padding-left: 10px;
-		padding-right:50px;
+		/* padding-right:50px; */
 		padding-bottom: 6px;
-		border: green solid 4px;
+		/* border: green solid 4px; */
 	}
 	#act{
 		position: relative;
@@ -659,7 +677,7 @@ footer{
 		width: 85%;
 		padding-left: 30px;
 		padding-bottom: 6px;
-		border: green solid 4px;
+		/* border: green solid 4px; */
 	}
 	#inscri{
 		position: relative;
@@ -669,7 +687,7 @@ footer{
 		padding-right: 0px;
 		padding-bottom: 10px;
 		width: 50%;
-		border: green solid 4px;
+		/* border: green solid 4px; */
 	}
    	#heber:hover{
 		padding-top:50px;
@@ -697,7 +715,7 @@ footer{
 		position: relative;
 		left: 0px;
 		margin-right:0px;
-		border: green solid 1px;
+		/* border: green solid 1px; */
 	}
 	#titre01{
 		padding-left: 0px;
@@ -715,6 +733,9 @@ footer{
 	#rechercher{
 		visibility: hidden;
 	}
+	.choix:hover {
+		background-color: #ff0095;
+	  }
 	#butt{
 		visibility: visible;
 		color:white;
@@ -788,15 +809,16 @@ footer{
 		margin-right:0px;
 		/* right: 20px; */
 		padding-bottom: 10px;
-		border: green solid 1px;
+		/* border: green solid 1px; */
 	}  
     aside{
 		width: 99.5%;
 		position: absolute;
 		top: 0px;
-		right: 1px;
+		right: 8px;
 		height: 590px;
 		border-radius: 0%;
+		/* border: green solid 1px; */
 	}
 	#pop{
 		padding-right: 40px;
@@ -817,10 +839,12 @@ footer{
 	.principal{
      	position: relative;
 		top: 590px;
+		right: 8px;
 		height: 1360px;
 		width: 100%;
 		background-color: white;
 		margin-top: 10px;
+		/* border: green solid 1px; */
 	}
 	.principal h3{
 		position: relative;
@@ -845,7 +869,7 @@ footer{
 		/* margin-left: 0px; */
 		margin-top: 5px;
 		margin-bottom: 5px;
-		border: green solid 2px;
+		/* border: green solid 2px; */
 		margin-left: 20px;
 	}
 	#activ_titre{
@@ -910,14 +934,14 @@ footer{
 		margin-left: 5%;
 		margin-right: 5%;
 		margin-bottom: 5%;
-		border: green solid 1px;
+		/* border: green solid 1px; */
 	}
 	#apropos{
 		width: 85%; 
 		position: relative;
 		top: 40px;
 		margin-bottom: 50px;
-		border: green solid 1px;
+		/* border: green solid 1px; */
 	} 
 	#nosheberg{
 		width: 85%; 
@@ -925,7 +949,7 @@ footer{
 		left: 0px;
 		top: 20px;
 		margin-bottom:30px;
-		border: green solid 1px;
+		/* border: green solid 1px; */
 
 	} 
 	#assistance{
@@ -934,7 +958,7 @@ footer{
 		top: 20px;
 		left: 0px;
 		margin-bottom: 10px;
-		border: green solid 1px;
+		/* border: green solid 1px; */
 
 	}
 }
