@@ -368,7 +368,7 @@ aside{
 	padding-left: 10px;
 }
 .grise2, .bleu2 {
-	float: bottom;
+	/* float: bottom; */
 	position: relative;
 	top: 53px; 
 }
