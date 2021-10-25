@@ -362,7 +362,7 @@ aside{
 	border-bottom-right-radius: 13px;
 	background-color: white;
 	font-size: small;
-	border:white solid 3px;
+	border:rgb(250, 246, 246) solid 3px;
 }
 .imtxt p{
 	padding-left: 10px;
